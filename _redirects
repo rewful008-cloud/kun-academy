@@ -1,0 +1,19 @@
+# إعادة توجيه لوحة الإدارة
+/admin              /admin.html           200
+/admin/             /admin.html           200
+
+# إعادة توجيه للصفحة الرئيسية
+/home               /index.html           200
+/home/              /index.html           200
+
+# إعادة توجيه للأقسام المختلفة (SPA routing)
+/marketplace        /index.html           200
+/articles           /index.html           200
+/courses            /index.html           200
+/tools              /index.html           200
+/apps               /index.html           200
+/about              /index.html           200
+/mylist             /index.html           200
+
+# إعادة توجيه عامة لجميع المسارات غير الموجودة إلى الصفحة الرئيسية
+/*                  /index.html           200

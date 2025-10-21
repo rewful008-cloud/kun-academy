@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>لوحة التحكم - إدارة بيانات الموقع</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link rel="stylesheet" href="admin.css" />
+</head>
+<body>
+  <div class="admin-layout">
+    <aside class="sidebar">
+      <div class="brand">
+        <span class="material-icons">dashboard</span>
+        <span>لوحة التحكم</span>
+      </div>
+      <nav class="nav">
+        <button class="nav-item" data-dataset="marketplace">السوق</button>
+        <button class="nav-item" data-dataset="articles">المقالات</button>
+        <button class="nav-item" data-dataset="courses">الكورسات</button>
+        <button class="nav-item" data-dataset="tools">الأدوات</button>
+        <button class="nav-item" data-dataset="apps">التطبيقات</button>
+        <button class="nav-item" data-dataset="promotions">العروض</button>
+      </nav>
+      <div class="sidebar-actions">
+        <button id="refreshDataBtn" class="btn btn-outline">
+          <span class="material-icons">refresh</span>
+          إعادة قراءة السكربت
+        </button>
+        <button id="clearStorageBtn" class="btn btn-outline">
+          <span class="material-icons">delete_sweep</span>
+          مسح التخزين المؤقت
+        </button>
+        <button id="exportScriptBtn" class="btn btn-primary">
+          <span class="material-icons">code</span>
+          تصدير سكربت معدل
+        </button>
+        <button id="exportExcelBtn" class="btn btn-primary">
+          <span class="material-icons">table_view</span>
+          تصدير بيانات كإكسل
+        </button>
+      </div>
+    </aside>
+
+    <main class="main">
+      <header class="toolbar">
+        <div class="toolbar-left">
+          <div class="file-info">
+            <span class="material-icons">description</span>
+            <span id="scriptFileName">script.js</span>
+            <input id="scriptPathInput" type="text" class="search-input" value="script.js" style="margin-inline-start:10px;min-width:220px" placeholder="مسار مصدر البيانات مثل 0/script.js" />
+          </div>
+          <div class="status">
+            <div id="loadStatus" class="stats-container">
+              <div class="stats-header">
+                <span class="material-icons">analytics</span>
+                <span>إحصائيات البيانات</span>
+              </div>
+              <div class="stats-grid">
+                <div class="stat-item">
+                  <span class="stat-icon">🏪</span>
+                  <div class="stat-content">
+                    <span class="stat-label">السوق</span>
+                    <span class="stat-value" id="stat-marketplace">0</span>
+                  </div>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-icon">📝</span>
+                  <div class="stat-content">
+                    <span class="stat-label">المقالات</span>
+                    <span class="stat-value" id="stat-articles">0</span>
+                  </div>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-icon">🎓</span>
+                  <div class="stat-content">
+                    <span class="stat-label">الكورسات</span>
+                    <span class="stat-value" id="stat-courses">0</span>
+                  </div>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-icon">🛠️</span>
+                  <div class="stat-content">
+                    <span class="stat-label">الأدوات</span>
+                    <span class="stat-value" id="stat-tools">0</span>
+                  </div>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-icon">📱</span>
+                  <div class="stat-content">
+                    <span class="stat-label">التطبيقات</span>
+                    <span class="stat-value" id="stat-apps">0</span>
+                  </div>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-icon">🎁</span>
+                  <div class="stat-content">
+                    <span class="stat-label">العروض</span>
+                    <span class="stat-value" id="stat-promotions">0</span>
+                  </div>
+                </div>
+              </div>
+              <div class="stats-footer">
+                <div class="stats-meta">
+                  <span class="meta-item">
+                    <span class="material-icons">schedule</span>
+                    <span id="last-update">آخر تحديث: غير محدد</span>
+                  </span>
+                  <span class="meta-item">
+                    <span class="material-icons">check_circle</span>
+                    <span id="validation-status">حالة التحقق: جاري الفحص</span>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="toolbar-right">
+          <input id="searchInput" type="text" class="search-input" placeholder="بحث داخل البيانات الحالية" />
+          <button id="addRowBtn" class="btn btn-outline">
+            <span class="material-icons">add</span>
+            إضافة عنصر
+          </button>
+          <button id="deleteSelectedBtn" class="btn btn-danger">
+            <span class="material-icons">delete</span>
+            حذف المحدد
+          </button>
+          <button id="saveChangesBtn" class="btn btn-success">
+            <span class="material-icons">save</span>
+            حفظ التعديلات
+          </button>
+        </div>
+      </header>
+
+      <section class="schema-panel">
+        <div class="panel-header">
+          <h3>محرر الهيكل (Schema)</h3>
+          <div class="panel-actions">
+            <button id="addFieldBtn" class="btn btn-outline">
+              <span class="material-icons">view_column</span>
+              إضافة حقل
+            </button>
+            <button id="editRelationsBtn" class="btn btn-outline">
+              <span class="material-icons">share</span>
+              العلاقات
+            </button>
+            <button id="editConstraintsBtn" class="btn btn-outline">
+              <span class="material-icons">rule</span>
+              القيود
+            </button>
+          </div>
+        </div>
+        <div id="schemaContainer" class="schema-container"></div>
+      </section>
+
+      <section class="table-panel">
+        <div class="panel-header">
+          <h3>عرض وتحرير البيانات</h3>
+          <div class="panel-actions">
+            <label class="compact-toggle">
+              <input type="checkbox" id="compactViewToggle" />
+              عرض مضغوط
+            </label>
+          </div>
+        </div>
+        <div id="tableContainer" class="table-container"></div>
+      </section>
+    </main>
+  </div>
+
+  <!-- Confirm Dialog -->
+  <div id="confirmDialog" class="dialog hidden">
+    <div class="dialog-content">
+      <div class="dialog-header">
+        <h4 id="confirmTitle">تأكيد العملية</h4>
+        <button class="close-btn" onclick="AdminUI.hideConfirm()">
+          <span class="material-icons">close</span>
+        </button>
+      </div>
+      <div class="dialog-body" id="confirmMessage">هل أنت متأكد من المتابعة؟</div>
+      <div class="dialog-footer">
+        <button class="btn btn-outline" onclick="AdminUI.hideConfirm()">إلغاء</button>
+        <button class="btn btn-danger" id="confirmOkBtn">تأكيد</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notifications -->
+  <div id="toast" class="toast hidden"></div>
+
+  <script src="admin.js"></script>
+</body>
+</html>
