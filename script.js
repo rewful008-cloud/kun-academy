@@ -10962,18 +10962,6 @@ function loadData() {
     "validUntil": "2024-02-15",
     "isActive": true,
     "kunGuarantee": true
-  },
-  {
-    "id": 2,
-    "title": "💰 بونص مميز لمدة محدودة!",
-    "description": "اشحن أي مبلغ خلال 36 ساعة واحصل على مكافأة فورية!",
-    "provider": "5G Proxy SlimanSa",
-    "providerLogo": "🤖",
-    "providerUrl": "https://t.me/ProxySlimanSa_bot?start=NzY2NTAuNDY0Njc0Njc0",
-    "type": "bonus",
-    "validUntil": "2024-02-15",
-    "isActive": true,
-    "kunGuarantee": true
   }
 ];
 
@@ -11030,30 +11018,23 @@ function loadData() {
     }
   },
   {
-    "id": 3,
-    "title": "كورس توليد إحالات Lifepoints - Silver",
-    "excerpt": "تعلم كيفية توليد إحالات فعالة لموقع Lifepoints",
-    "content": "محتوى الكورس الكامل...",
-    "author": "Silver",
-    "date": "2024-01-16",
-    "category": "كورسات",
-    "readTime": "30 دقيقة",
-    "image": "🔗",
-    "url": "https://t.me/SurveyGameCashAcademychat/3882/10028",
-    "rating": 4.5
-  },
-  {
     "id": 4,
     "title": "كورس Resuelv+ - Fadi Ss",
     "excerpt": "تعلم استخدام منصة Resuelv+ للربح من الاستبيانات",
     "content": "محتوى الكورس الكامل...",
     "author": "Fadi Ss",
-    "date": "2024-01-14",
+    "date": "2025-07-31",
     "category": "كورسات",
     "readTime": "25 دقيقة",
     "image": "📊",
     "url": "https://t.me/SurveyGameCashAcademychat/3882/12272",
-    "rating": 3.5
+    "rating": 5,
+    "price": "7$",
+    "review": "{\n\"title\":\"مراجعة أكاديمية كن – تخطي الاستبيانات واستثمار أداة Resuelv+\",\n\"content\":\"\\n\n📣⭐️ كورس احترافي جديد – تخطي الاستبيانات واستثمار أداة Resuelv+ ⭐️🔉\\n\n\\n\n🪪 بطاقة الكورس:\\n\n📌  اسم الكورس: تخطي الاستبيانات واستثمار أداة Resuelv+\\n\n🎓  مقدم من: Fadi Ss\\n\n👤  معرف صاحب الكورس: @Fadis11 (https://t.me/Fadis11)\\n\n💰  سعر الاشتراك الأساسي: 7$ فقط\\n\n🔄  سعر الاشتراك الشهري بالتحديثات: 1$.\\n\n♾️ الكورس في حالة تحديث دائم لتغطية أحدث الأساليب\\n\n\\n\n📚 محتوى الكورس:\\n\n1️⃣ التعريف بأداة Resuelv+\\n\n2️⃣ شرح التخطي اليدوي للاستبيانات\\n\n3️⃣ شرح التخطي الآلي للاستبيانات\\n\n4️⃣ طرق تخطي جميع أنواع المحولات (Jumpers)\\n\n5️⃣ استثمار أداة Resuelv+ في تخطي الاستبيانات\\n\n6️⃣ حل جميع المشكلات التي قد تواجه المستخدم\\n\n7️⃣ خطط واستراتيجيات عملية للعمل وتحقيق أرباح مستمرة.\\n\n\\n\n🌟 مميزات الكورس\\n\n✅ شرح واضح يجمع بين النظري والتطبيقي\\n\n✅ يغطي جميع طرق التخطي اليدوي والآلي\\n\n✅ حلول عملية لأي مشكلة محتملة\\n\n✅ مناسب للمبتدئين والمحترفين في مجال الاستبيانات\\n\n✅ تحديثات دائمة لمواكبة كل جديد.\\n\n\\n\n✉️ للاشتراك والتفاصيل:\\n\n👤 عبر صاحب الكورس: @Fadis11 (https://t.me/Fadis11)\\n\n\\n\n\"author\":\"أكاديمية كن\",\n\"date\":\"2025-07-31\",\n\"rating\":5\n}",
+    "source": "https://t.me/Fadis11",
+    "subscriptionType": "دائم (مدى الحياة)",
+    "telegramChannel": "https://t.me/Fadis11",
+    "telegramContact": "@Fadis11"
   },
   {
     "id": 5,
