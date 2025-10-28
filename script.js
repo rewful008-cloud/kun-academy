@@ -7108,7 +7108,7 @@ Rocket SlimanSa Bot مو مجرد بوت جديد…
         {
             id: 5,
             type: 'bots',
-            name: 'Digital X Services (Proxy)',
+            name: 'DIGI-X Services (Proxy)',
             description: '',
             logo: '💎',
             url: 'https://t.me/Digital_X_Services_bot?start=464674674',
