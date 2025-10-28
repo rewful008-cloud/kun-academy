@@ -8173,7 +8173,20 @@ Rocket SlimanSa Bot مو مجرد بوت جديد…
             validUntil: '',
             isActive: true,
             kunGuarantee: true
-        }
+        },
+       {
+    id: 2,
+    title: '💸 كاش باك 26% على جميع عمليات شراء البروكسي!',
+    description: 'اشترِ أي بروكسي من خلال بوت EZNumber واسترجع 26% من قيمة الشراء بعد إتمام الطلب!',
+    provider: 'EZNumbers Telegram Bot',
+    providerLogo: '🤖',
+    providerUrl: 'https://t.me/EZNumber_K_Bot?start=464674674',
+    type: 'cashback',
+    validUntil: '',
+    isActive: true,
+    kunGuarantee: true
+}
+
     ];
 
     // Courses Data
