@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>أكاديمية كن - Kun Academy</title>
+    
+    <!-- DNS Prefetch for external resources -->
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link rel="dns-prefetch" href="//fonts.gstatic.com">
+    
+    <!-- Resource Hints -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="image/png" href="icon.png">
+    <link rel="apple-touch-icon" href="icon.png">
+    
+    <!-- Critical CSS Preload -->
+    <link rel="preload" href="styles.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="styles.min.css"></noscript>
+    
+    <!-- Mobile CSS with async loading -->
+    <link rel="preload" href="mobile.css?v=20251019" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="mobile.css?v=20251019"></noscript>
+    
+    <!-- Font preconnections -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Fonts with display=swap for better performance -->
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700&display=swap" rel="stylesheet"></noscript>
+    
+    <!-- Material Icons with async loading -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript><link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"></noscript>
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#1976d2">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="أكاديمية كن">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    
+    <!-- Enhanced PWA Meta Tags -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="أكاديمية كن">
+    <meta name="application-name" content="أكاديمية كن">
+    <meta name="msapplication-tooltip" content="أكاديمية كن - منصة معرفية تفاعلية">
+    <meta name="msapplication-starturl" content="/">
+    <meta name="msapplication-navbutton-color" content="#1976d2">
+    <meta name="msapplication-TileColor" content="#1976d2">
+    <meta name="msapplication-TileImage" content="logo.png">
+    <meta name="msapplication-config" content="browserconfig.xml">
+    
+    <!-- PWA Validation -->
+    <meta name="application-name" content="أكاديمية كن">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="أكاديمية كن">
+    
+    <!-- Security -->
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="أكاديمية كن - Kun Academy">
+    <meta property="og:description" content="منصة معرفية تفاعلية متخصصة في البروكسيات، VPN، والأدوات الرقمية">
+    <meta property="og:image" content="icon.png">
+    <meta property="og:url" content="/">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="ar_SA">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="أكاديمية كن - Kun Academy">
+    <meta name="twitter:description" content="منصة معرفية تفاعلية متخصصة في البروكسيات، VPN، والأدوات الرقمية">
+    <meta name="twitter:image" content="icon.png">
+    
+    <!-- Additional Icons -->
+    <link rel="icon" type="image/png" sizes="32x32" href="icon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="icon.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="icon.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="icon.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="icon.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="icon.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="icon.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="icon.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="icon.png">
+    
+    <!-- Critical CSS Loading Optimization -->
+    <script>
+        // Inline critical CSS loading optimization
+        (function() {
+            // Function to load CSS asynchronously
+            function loadCSS(href, before, media) {
+                var doc = window.document;
+                var ss = doc.createElement("link");
+                var ref;
+                if (before) {
+                    ref = before;
+                } else {
+                    var refs = (doc.body || doc.getElementsByTagName("head")[0]).childNodes;
+                    ref = refs[refs.length - 1];
+                }
+                var sheets = doc.styleSheets;
+                ss.rel = "stylesheet";
+                ss.href = href;
+                ss.media = "only x";
+                
+                function ready(cb) {
+                    if (doc.body) {
+                        return cb();
+                    }
+                    setTimeout(function() {
+                        ready(cb);
+                    });
+                }
+                
+                ready(function() {
+                    ref.parentNode.insertBefore(ss, (before ? ref : ref.nextSibling));
+                });
+                
+                var onloadcssdefined = function(cb) {
+                    var resolvedHref = ss.href;
+                    var i = sheets.length;
+                    while (i--) {
+                        if (sheets[i].href === resolvedHref) {
+                            return cb();
+                        }
+                    }
+                    setTimeout(function() {
+                        onloadcssdefined(cb);
+                    });
+                };
+                
+                function loadCB() {
+                    if (ss.addEventListener) {
+                        ss.removeEventListener("load", loadCB);
+                    }
+                    ss.media = media || "all";
+                }
+                
+                if (ss.addEventListener) {
+                    ss.addEventListener("load", loadCB);
+                }
+                ss.onloadcssdefined = onloadcssdefined;
+                onloadcssdefined(loadCB);
+                return ss;
+            }
+            
+            // Preload critical resources
+            var criticalResources = [
+                'styles.min.css',
+                'mobile.css?v=20251019'
+            ];
+            
+            // Load critical CSS with high priority
+            criticalResources.forEach(function(resource) {
+                var link = document.querySelector('link[href="' + resource + '"]');
+                if (link && link.rel === 'preload') {
+                    link.rel = 'stylesheet';
+                }
+            });
+            
+            // Performance monitoring
+            if ('performance' in window) {
+                window.addEventListener('load', function() {
+                    setTimeout(function() {
+                        var perfData = performance.getEntriesByType('navigation')[0];
+                        if (perfData && perfData.loadEventEnd > 0) {
+                            console.log('Page load time:', perfData.loadEventEnd - perfData.navigationStart, 'ms');
+                        }
+                    }, 0);
+                });
+            }
+        })();
+    </script>
+</head>
+<body>
+    <!-- Splash Screen -->
+    <div id="splashScreen" class="splash-screen">
+        <div class="splash-content">
+            <div class="splash-logo">
+                <img src="logo.png" alt="أكاديمية كن" class="splash-logo-img">
+            </div>
+            <div class="splash-title">
+                <h1>أكاديمية كن</h1>
+                <p class="splash-subtitle">Kun Academy</p>
+            </div>
+            <div class="splash-tagline">
+                <p>منصة المعرفة الرقمية المتقدمة</p>
+            </div>
+            <div class="splash-progress">
+                <div class="progress-bar">
+                    <div class="progress-fill" id="splashProgress"></div>
+                </div>
+                <div class="progress-text" id="splashProgressText">جاري التحميل...</div>
+            </div>
+            <div class="splash-features">
+                <div class="feature-item">
+                    <span class="material-icons">verified</span>
+                    <span>خدمات موثوقة</span>
+                </div>
+                <div class="feature-item">
+                    <span class="material-icons">store</span>
+                    <span>سوق موثوق</span>
+                </div>
+                <div class="feature-item">
+                    <span class="material-icons">verified</span>
+                    <span>ضمان الجودة</span>
+                </div>
+            </div>
+        </div>
+        <div class="splash-background">
+            <div class="splash-particles"></div>
+        </div>
+    </div>
+
+    <!-- Offline Banner -->
+    <div class="offline-banner" id="offlineBanner">
+        <div class="banner-content">
+            <span class="banner-icon">📡</span>
+            <span>لا يوجد اتصال بالإنترنت - يعمل في وضع عدم الاتصال</span>
+        </div>
+    </div>
+
+    <!-- Offline Overlay -->
+    <div class="offline-overlay" id="offlineOverlay">
+        <div class="offline-content">
+            <button class="close-offline-btn" onclick="hideOfflineOverlay()" title="إغلاق">
+                <span class="material-icons">close</span>
+            </button>
+            <div class="offline-icon">📡</div>
+            <h3>لا يوجد اتصال بالإنترنت</h3>
+            <p>أنت تعمل حالياً في وضع عدم الاتصال. يمكنك تصفح المحتوى المحفوظ محلياً.</p>
+            <div class="offline-actions">
+                <button class="retry-btn" onclick="checkConnection()">إعادة المحاولة</button>
+                <button class="continue-btn" onclick="hideOfflineOverlay()">متابعة بدون إنترنت</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="header-content">
+            <div class="logo">
+                <div class="logo-icon">
+                    <img src="logo.png" alt="أكاديمية كن" class="logo-img">
+                </div>
+                <div class="logo-text">
+                    <h1>أكاديمية كن</h1>
+                    <span class="logo-subtitle">Kun Academy</span>
+                </div>
+            </div>
+            <div class="header-actions">
+                <button class="menu-btn mylist-btn" onclick="showSection('mylist')" title="قائمتي">
+                    <span class="material-icons">bookmark</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Home Section -->
+        <section id="home" class="section active">
+            <div class="hero-banner">
+                <div class="hero-logo">
+                    <img src="logo@2x.png" alt="أكاديمية كن" class="hero-logo-img">
+                </div>
+                <div class="hero-content">
+                    <h2 class="hero-title">أكاديمية كن</h2>
+                    <p class="hero-subtitle">حيث تجد كل شيء بضمان كن</p>
+                    <div class="hero-actions"></div>
+                </div>
+            </div>
+
+
+
+
+            <!-- Promotions Section -->
+            <div class="promotions-section">
+                <h3>🎯 العروض الحصرية</h3>
+                <div class="promotions-container" id="promotionsContainer">
+                    <!-- Promotions will be loaded here -->
+                </div>
+            </div>
+
+            <!-- Contact Section -->
+            <div class="contact-section">
+                <h3>تواصل معنا</h3>
+                <div class="contact-links">
+                    <a href="https://t.me/eng_Eyad_saleh" target="_blank" rel="noopener noreferrer" class="contact-link">
+                        <span class="material-icons">person</span>
+                        <div class="contact-info">
+                            <h4>المدير</h4>
+                            <p>eng. Eyad Saleh</p>
+                        </div>
+                    </a>
+                    <a href="https://t.me/SurveyGameCashAcademychat" target="_blank" rel="noopener noreferrer" class="contact-link">
+                        <span class="material-icons">group</span>
+                        <div class="contact-info">
+                            <h4>مجموعة التواصل</h4>
+                            <p>مجتمع مبادرة كن</p>
+                        </div>
+                    </a>
+                    <a href="https://t.me/KunAcademyserv" target="_blank" rel="noopener noreferrer" class="contact-link">
+                        <span class="material-icons">business</span>
+                        <div class="contact-info">
+                            <h4>خدمات أكاديمية كن</h4>
+                            <p>خدمات متخصصة</p>
+                        </div>
+                    </a>
+                    <a href="https://www.facebook.com/share/1DW3QsJ3SV/" target="_blank" rel="noopener noreferrer" class="contact-link">
+                        <span class="material-icons">facebook</span>
+                        <div class="contact-info">
+                            <h4>صفحة الفيسبوك</h4>
+                            <p>تواصل اجتماعي</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Marketplace Section -->
+        <section id="marketplace" class="section">
+            <div class="section-header">
+                <h2>السوق</h2>
+                <div class="search-bar">
+                    <span class="material-icons">search</span>
+                    <input type="text" placeholder="ابحث في السوق..." id="marketplaceSearch">
+                </div>
+            </div>
+            
+            <div class="marketplace-filters">
+                <div class="filters-header">
+                    <div class="sheet-handle"></div>
+                    <div class="filters-title">
+                        <span class="material-icons">tune</span>
+                        <h3>فلترة السوق</h3>
+                    </div>
+                    <button class="btn btn-ghost close-sheet" type="button" onclick="closeFilterSheet()" aria-label="إغلاق">
+                        <span class="material-icons">close</span>
+                    </button>
+                </div>
+                <div class="filters-grid">
+                    <div class="filter-group">
+                        <label for="marketplaceCategoryFilter">التصنيف:</label>
+                        <select id="marketplaceCategoryFilter" class="filter-select">
+                            <option value="all">الكل</option>
+                            <option value="بروكسيات">البروكسيات</option>
+                            <option value="أرقام مؤقتة">أرقام مؤقتة</option>
+                            <option value="أرقام دائمة">أرقام دائمة</option>
+                            <option value="حسابات استبيانات">حسابات استبيانات</option>
+                            <option value="وسطاء">الوسطاء</option>
+                            <option value="خدمات أخرى">خدمات أخرى</option>
+                        </select>
+                    </div>
+                    
+                    <div class="filter-group">
+                        <label for="marketplaceTypeFilter">النوع:</label>
+                        <select id="marketplaceTypeFilter" class="filter-select">
+                            <option value="all">الكل</option>
+                            <option value="bots">البوتات</option>
+                            <option value="sites">المواقع</option>
+                        </select>
+                    </div>
+                    
+                    <div class="filter-group">
+                        <label for="marketplaceSubtypeFilter">التفصيل:</label>
+                        <select id="marketplaceSubtypeFilter" class="filter-select">
+                            <option value="all">الكل</option>
+                            <option value="proxy-bots">بوتات البروكسيات</option>
+                            <option value="proxy-sites">مواقع البروكسيات</option>
+                            <option value="temp-numbers-bots">بوتات الأرقام المؤقتة</option>
+                            <option value="temp-numbers-sites">مواقع الأرقام المؤقتة</option>
+                            <option value="permanent-numbers-bots">بوتات الأرقام الدائمة</option>
+                            <option value="survey-accounts-bots">بوتات حسابات الاستبيانات</option>
+                            <option value="middlemen-bots">بوتات الوسطاء</option>
+                            <option value="other-services-bots">بوتات الخدمات الأخرى</option>
+                        </select>
+                    </div>
+                    
+                    <div class="filter-group kun-guarantee-filter">
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="kunGuaranteeFilter" class="kun-guarantee-checkbox">
+                            <span class="checkmark">
+                                <span class="material-icons">verified</span>
+                            </span>
+                            <span class="label-text">ضمان كن فقط</span>
+                        </label>
+                    </div>
+                </div>
+                <div class="filters-actions">
+                    <button class="btn btn-primary" id="applyFiltersBtn">
+                        <span class="material-icons">done</span>
+                        تطبيق الفلترة
+                    </button>
+                </div>
+            </div>
+
+            <div class="marketplace-grid" id="marketplaceGrid">
+                <!-- Marketplace items will be loaded here -->
+            </div>
+        </section>
+
+        <!-- Articles Section -->
+        <section id="articles" class="section">
+            <div class="section-header">
+                <h2>المقالات</h2>
+                <div class="search-bar">
+                    <span class="material-icons">search</span>
+                    <input type="text" placeholder="ابحث في المقالات..." id="articlesSearch">
+                </div>
+            </div>
+
+            <div class="articles-grid" id="articlesGrid">
+                <!-- Articles will be loaded here -->
+            </div>
+        </section>
+
+        <!-- Courses Section -->
+        <section id="courses" class="section">
+            <div class="section-header">
+                <h2>الكورسات</h2>
+                <div class="search-bar">
+                    <span class="material-icons">search</span>
+                    <input type="text" placeholder="ابحث في الكورسات..." id="coursesSearch">
+                </div>
+            </div>
+
+            <div class="filter-tabs">
+                <button class="filter-tab active" data-filter="all">الكل</button>
+                <button class="filter-tab" data-filter="كورسات">كورسات</button>
+                <button class="filter-tab" data-filter="قنوات يوتيوب">قنوات يوتيوب</button>
+            </div>
+
+            <div class="courses-grid" id="coursesGrid">
+                <!-- Courses will be loaded here -->
+            </div>
+        </section>
+
+        <!-- Tools Section -->
+        <section id="tools" class="section">
+            <div class="section-header">
+                <h2>الأدوات</h2>
+                <div class="search-bar">
+                    <span class="material-icons">search</span>
+                    <input type="text" placeholder="ابحث في الأدوات..." id="toolsSearch">
+                </div>
+            </div>
+
+            <div class="tools-grid" id="toolsGrid">
+                <!-- Tools will be loaded here -->
+            </div>
+        </section>
+
+        <!-- Apps Section -->
+        <section id="apps" class="section">
+            <div class="section-header">
+                <h2>التطبيقات المفيدة</h2>
+                <p>مجموعة متنوعة من التطبيقات المفيدة للذكاء الصنعي والربح والأمان</p>
+            </div>
+            
+            <div class="search-container">
+                <div class="search-bar">
+                    <span class="material-icons">search</span>
+                    <input type="text" placeholder="البحث في التطبيقات..." id="appsSearch">
+                </div>
+                <div class="filter-tabs">
+                    <button class="filter-tab active" data-type="all">الكل</button>
+                    <button class="filter-tab" data-type="ذكاء صنعي">ذكاء صنعي</button>
+                    <button class="filter-tab" data-type="ربح من الألعاب">ربح من الألعاب</button>
+                    <button class="filter-tab" data-type="ربح من الاستبيانات">ربح من الاستبيانات</button>
+                    <button class="filter-tab" data-type="ترجمة">ترجمة</button>
+                    <button class="filter-tab" data-type="بروكسي">بروكسي</button>
+                    <button class="filter-tab" data-type="أمان">أمان</button>
+                    <button class="filter-tab" data-type="إنتاجية">إنتاجية</button>
+                    <button class="filter-tab" data-type="تعليم">تعليم</button>
+                </div>
+            </div>
+            
+            <div class="grid" id="appsGrid">
+                <!-- Apps will be loaded here -->
+            </div>
+        </section>
+
+        <!-- My List Section -->
+        <section id="mylist" class="section">
+            <div class="section-header">
+                <h2>قائمتي المفضلة</h2>
+                <p>مجموعتك الشخصية من العناصر المفضلة للوصول السريع</p>
+            </div>
+
+            <!-- My List Controls -->
+            <div class="mylist-controls">
+                <div class="mylist-stats">
+                    <div class="stat-item">
+                        <span class="material-icons">bookmark</span>
+                        <span class="stat-number" id="myListCount">0</span>
+                        <span class="stat-label">عنصر محفوظ</span>
+                    </div>
+                </div>
+
+                <div class="mylist-actions">
+                    <div class="search-bar mylist-search">
+                        <span class="material-icons">search</span>
+                        <input type="text" placeholder="ابحث في قائمتي..." id="myListSearch">
+                    </div>
+                    
+                    <div class="mylist-filters">
+                        <button class="filter-btn active" data-filter="all">
+                            الكل
+                        </button>
+                        <button class="filter-btn" data-filter="marketplace">
+                            السوق
+                        </button>
+                        <button class="filter-btn" data-filter="articles">
+                            المقالات
+                        </button>
+                        <button class="filter-btn" data-filter="courses">
+                            الكورسات
+                        </button>
+                        <button class="filter-btn" data-filter="apps">
+                            التطبيقات
+                        </button>
+                        <button class="filter-btn" data-filter="tools">
+                            الأدوات
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- My List Grid -->
+            <div class="mylist-grid" id="myListGrid">
+                <!-- Items will be loaded here -->
+            </div>
+
+            <!-- My List Pagination -->
+            <div class="mylist-pagination" id="myListPagination" style="display: none;">
+                <!-- Pagination will be loaded here -->
+            </div>
+
+            <!-- Empty State -->
+            <div class="mylist-empty" id="myListEmpty" style="display: none;">
+                <div class="empty-illustration">
+                    <span class="material-icons">bookmark_border</span>
+                </div>
+                <h3>قائمتك فارغة</h3>
+                <p>ابدأ بإضافة عناصرك المفضلة من الأقسام المختلفة</p>
+                <div class="empty-actions">
+                    <button class="btn btn-primary" onclick="showSection('marketplace')">
+                        <span class="material-icons">store</span>
+                        تصفح السوق
+                    </button>
+                    <button class="btn btn-outline" onclick="showSection('apps')">
+                        <span class="material-icons">phone_android</span>
+                        تصفح التطبيقات
+                    </button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Bottom Navigation -->
+    <nav class="bottom-nav">
+        <button class="nav-item active" data-section="home">
+            <span class="material-icons">home</span>
+            <span>الرئيسية</span>
+        </button>
+        <button class="nav-item" data-section="marketplace">
+            <span class="material-icons">store</span>
+            <span>السوق</span>
+        </button>
+        <button class="nav-item" data-section="articles">
+            <span class="material-icons">article</span>
+            <span>المقالات</span>
+        </button>
+        <button class="nav-item" data-section="courses">
+            <span class="material-icons">school</span>
+            <span>الكورسات</span>
+        </button>
+        <button class="nav-item" data-section="tools">
+            <span class="material-icons">build</span>
+            <span>الأدوات</span>
+        </button>
+        <button class="nav-item" data-section="apps">
+            <span class="material-icons">apps</span>
+            <span>التطبيقات</span>
+        </button>
+
+    </nav>
+
+    <!-- Floating Connection Status Button -->
+    <button class="floating-connection-btn" id="connectionBtn" title="حالة الاتصال">
+        <div class="floating-connection-icon">
+            <span class="status-icon" id="floatingStatusIcon">🌐</span>
+        </div>
+        <div class="floating-connection-text">
+            <span class="status-text" id="floatingStatusText">متصل</span>
+        </div>
+    </button>
+
+    <!-- Floating Update Button -->
+    <button class="floating-update-btn" onclick="forceUpdateData()" title="تحديث البيانات">
+        <div class="floating-btn-icon">
+            <img src="icon.png" alt="أكاديمية كن" class="floating-btn-img">
+        </div>
+        <div class="floating-btn-text">
+            <span class="material-icons">refresh</span>
+        </div>
+    </button>
+
+    <!-- Floating Filter Button (FAB) -->
+    <button class="floating-filter-btn ripple-target" id="floatingFilterBtn" onclick="openFilterSheet()" title="فلاتر السوق">
+        <div class="floating-btn-icon"><span class="material-icons">tune</span></div>
+        <div class="floating-btn-text"><span class="material-icons">expand_less</span></div>
+    </button>
+
+    <!-- Sheet backdrop -->
+    <div id="filterSheetBackdrop" class="sheet-backdrop" onclick="closeFilterSheet()"></div>
+
+    <!-- Scripts -->
+    <script>
+        // PWA Debug Information
+        console.log('PWA Debug Info:', {
+            isStandalone: window.matchMedia('(display-mode: standalone)').matches,
+            isPWA: window.navigator.standalone || window.matchMedia('(display-mode: standalone)').matches,
+            userAgent: navigator.userAgent,
+            serviceWorker: 'serviceWorker' in navigator
+        });
+        
+        // Force data loading in PWA mode
+        if (window.matchMedia('(display-mode: standalone)').matches) {
+            console.log('Running in PWA mode - ensuring data loads');
+            window.addEventListener('load', function() {
+                setTimeout(function() {
+                    if (typeof renderAllSections === 'function') {
+                        renderAllSections();
+                    }
+                }, 1000);
+            });
+        }
+    </script>
+    <script src="script.js?v=20251019"></script>
+    <script src="mobile.js?v=20251019"></script>
+    <script src="performance.js?v=20251019" async></script>
+</body>
+</html>

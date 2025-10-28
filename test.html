@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PWA Test - أكاديمية كن</title>
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#1976d2">
+</head>
+<body>
+    <h1>PWA Test Page</h1>
+    <p>This page is for testing PWA functionality.</p>
+    <p>If you can see this, the server is working correctly.</p>
+    
+    <h2>PWA Status:</h2>
+    <ul>
+        <li>Service Worker: <span id="sw-status">Checking...</span></li>
+        <li>Manifest: <span id="manifest-status">Checking...</span></li>
+        <li>Installable: <span id="install-status">Checking...</span></li>
+    </ul>
+    
+    <script>
+        // Test Service Worker
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('/sw.js')
+                .then(() => document.getElementById('sw-status').textContent = '✅ Registered')
+                .catch(() => document.getElementById('sw-status').textContent = '❌ Failed');
+        } else {
+            document.getElementById('sw-status').textContent = '❌ Not supported';
+        }
+        
+        // Test Manifest
+        fetch('/manifest.json')
+            .then(response => response.json())
+            .then(() => document.getElementById('manifest-status').textContent = '✅ Valid')
+            .catch(() => document.getElementById('manifest-status').textContent = '❌ Invalid');
+        
+        // Test Installability
+        window.addEventListener('beforeinstallprompt', () => {
+            document.getElementById('install-status').textContent = '✅ Installable';
+        });
+        
+        setTimeout(() => {
+            if (document.getElementById('install-status').textContent === 'Checking...') {
+                document.getElementById('install-status').textContent = '❌ Not installable';
+            }
+        }, 3000);
+    </script>
+</body>
+</html>

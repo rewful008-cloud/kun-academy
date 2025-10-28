@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# PWA files
+Allow: /manifest.json
+Allow: /sw.js
+Allow: /logo.png
+Allow: /logo@2x.png
+
+# Sitemap
+Sitemap: /sitemap.xml
