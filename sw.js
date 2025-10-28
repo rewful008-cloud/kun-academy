@@ -1,8 +1,8 @@
 // Service Worker for Kun Academy PWA - Enhanced Version
-const CACHE_NAME = 'kun-academy-v2.2';
-const STATIC_CACHE = 'kun-academy-static-v2.2';
-const DYNAMIC_CACHE = 'kun-academy-dynamic-v2.2';
-const IMAGE_CACHE = 'kun-academy-images-v2.2';
+const CACHE_NAME = 'kun-academy-v2.3';
+const STATIC_CACHE = 'kun-academy-static-v2.3';
+const DYNAMIC_CACHE = 'kun-academy-dynamic-v2.3';
+const IMAGE_CACHE = 'kun-academy-images-v2.3';
 
 const urlsToCache = [
     '/',
