@@ -7980,30 +7980,6 @@ function loadData() {
             validUntil: '2024-02-15',
             isActive: true,
             kunGuarantee: true
-        },
-{
-            id: 1,
-            title: '💰 بونص مميز لمدة محدودة!',
-            description: 'اشحن أي مبلغ خلال 36 ساعة واحصل على مكافأة فورية!',
-            provider: '5G Proxy SlimanSa',
-            providerLogo: '🤖',
-            providerUrl: 'https://t.me/ProxySlimanSa_bot?start=NzY2NTAuNDY0Njc0Njc0',
-            type: 'bonus',
-            validUntil: '2024-02-15',
-            isActive: true,
-            kunGuarantee: true
-        },
-{
-            id: 1,
-            title: '💰 بونص مميز لمدة محدودة!',
-            description: 'اشحن أي مبلغ خلال 36 ساعة واحصل على مكافأة فورية!',
-            provider: '5G Proxy SlimanSa',
-            providerLogo: '🤖',
-            providerUrl: 'https://t.me/ProxySlimanSa_bot?start=NzY2NTAuNDY0Njc0Njc0',
-            type: 'bonus',
-            validUntil: '2024-02-15',
-            isActive: true,
-            kunGuarantee: true
         }
     ];
 
