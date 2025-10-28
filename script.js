@@ -6935,7 +6935,7 @@ function loadData() {
             id: 1,
             type: 'bots',
             name: '5G Proxy SlimanSa',
-            description: 'بوت موثوق لشراء بروكسي 5G عالي الجودة مع محتوى حصري متجدد',
+            description: 'بوت سليمان لبروكسيات المودم، أحد أفضل الخيارات للعمل، يتيح بروكسيات روتيت مع تحكم كامل بالخصائص، كما يتيح بروكسي الحقن',
             logo: '🤖',
             url: 'https://t.me/ProxySlimanSa_bot?start=NzY2NTAuNDY0Njc0Njc0',
             rating: 5,
@@ -6977,16 +6977,15 @@ function loadData() {
 💼 قيمة مضافة لشغلك وحياتك الرقمية
                 `,
                 author: 'أكاديمية كن',
-                date: '2024-01-27',
-                rating: 4.5
+                date: '',
+                rating: 5
             }
         },
         {
             id: 2,
             type: 'bots',
             name: 'EZNumber K Bot (Proxy)',
-            description: 'بوت متخصص في بيع البروكسيات مع دعم فني',
-            logo: '🤖',
+            description: 'بوت مميز بقدم العديد من الخدمات، منها بروكسي الروتيت وبروكسي الحقن، وأكتر شي بيتميز فيه هوي الأرقام سواء الدائمة أو المؤقتة مع توفر عدة سيرفرات وبأرخص الأسعار بالسوق، وكمان بوفر بطاقات فيزا مناسبة لربط حسابات البايبال، وأرقام SSN، وأرقام تلغرام جاهزة للتفعيل',            logo: '🤖',
             url: 'https://t.me/EZNumber_K_Bot?start=464674674',
             rating: 5,
             price: 'مدفوع',
@@ -6997,19 +6996,108 @@ function loadData() {
             id: 3,
             type: 'bots',
             name: 'rocket slimansa bot (Proxy)',
-            description: 'بوت بروكسيات سريع وموثوق',
-            logo: '🚀',
+            description: 'بوت سليمان الثاني المخصص لبروكسيات الستاتيك بأنواعها العديدة، وأرقام التفعيل الدائمة والمؤقتة، وأهم شي قسم الخدمات يلي بيتضمن العديد من الحسابات الجاهزة للعمل',            logo: '🚀',
             url: 'https://t.me/rocket_slimansa_bot?start=464674674',
             rating: 5,
             price: 'مدفوع',
             category: 'بروكسيات',
-            kunGuarantee: true
+            kunGuarantee: true,
+                review: {
+                title: 'مراجعة أكاديمية كن - بوت 5G Proxy SlimanSa',
+                content: `☑️ مراجعة شاملة – Rocket SlimanSa 
+
+📌 إذا كنت من متابعي مجال الاستبيانات، الألعاب، وتفعيل الحسابات فأنت أكيد سمعت باسم سليمان، صاحب البوت المشهور والمعروف ProxySlimanSa Bot 🔥.
+
+اليوم، سليمان بيرجع بخطوة جديدة وبيقدملنا منتج مميز:
+⭐ Rocket SlimanSa Bot ⭐
+بوت شامل بيجمع كل الأدوات والخدمات الضرورية بمكان واحد، مع أسعار منافسة ودعم متواصل.
+
+🌄 أبرز المميزات
+📱 الأرقام:
+أرقام مؤقتة لتفعيل الأكواد.
+أرقام دائمة (إيجار).
+📉بأسعار منافسة بقوة مقارنة بالسوق العالمي.
+
+🛡 البروكسيات:
+Static Residential (IPv4 ISP).
+خيارات متعددة (Basic – Dedicated – Premium).
+استقرار عالي وسرعة ممتازة.
+
+ملاحظة مهمة: عن قريب رح يتم إطلاق نوع جديد ومميز من البروكسيات رح يغير مفهوم الشغل بشكل كامل.
+
+📦 المنتجات الرقمية:
+🆔 أرقام SSN مع بيانات دقيقة (بعدة ولايات أمريكية).
+📧 إيميلات Gmail مع كفالة 48 ساعة.
+✍️ حسابات استبيانات جاهزة (Opinion Edge – Toluna – MyPoints – Lifepoints... وغيرن).
+💲 حسابات بايبال (كندي – مأكد SSN – مأكد SSN + بنك).
+
+🖥 سهولة الاستخدام والدفع:
+واجهة منظمة وسهلة.
+شحن رصيد مباشر.
+دعم فني متجاوب معك.
+
+☑️ ليش تختار Rocket SlimanSa Bot؟
+لأنه من منتجات سليمان، صاحب خبرة كبيرة بمجال البروكسيات.
+لأنه بيوفرلك كل الخدمات الأساسية بمكان واحد.
+لأنه بأسعار منافسة جداً خصوصاً بالأرقام.
+لأنه فيه تحديثات مستمرة ومفاجآت قادمة رح تعزز الخدمات وتفتحلك آفاق جديدة.
+
+🔥 الخلاصة
+Rocket SlimanSa Bot مو مجرد بوت جديد…
+هو تطور طبيعي من خبرة طويلة في مجال البروكسيات والخدمات الرقمية.
+معه بتلاقي:
+أدوات جاهزة.
+أسعار منافسة.
+تطوير مستمر.
+                `,
+                author: 'أكاديمية كن',
+                date: '',
+                rating: 5
+            }
+        },
+        {
+            id: 4,
+            type: 'bots',
+            name: 'Static_bot (Static Proxy)',
+            description: 'أحد أفضل مصادر بروكسيات الستاتيك والسوكس',
+            logo: '🛡️',
+            url: 'https://t.me/Static_proxybot?start=464674674',
+            rating: 4.5,
+            price: 'مدفوع',
+            category: 'بروكسيات',
+            kunGuarantee: true,
+                            review: {
+                title: 'مراجعة أكاديمية كن - بوت Static_bot',
+                content: `☑️ مراجعة شاملة – Static_bot 
+🌍 Static Proxies | بروكسيات ستاتيك
+بروكسيات ستاتيك (ثابتة) هي عناوين IP خاصة تبقى ثابتة طوال فترة الاشتراك، وتُعد الخيار الأمثل للمستخدمين أو الشركات الذين يحتاجون إلى اتصال مستقر وغير متغير.
+تُستخدم عادة في إدارة الحسابات، الإعلانات، التداول، تشغيل البوتات، والمتاجر الإلكترونية، وغيرها من المهام التي تتطلب عنوان IP دائم وآمن.
+✅ المميزات | Features:
+عنوان IP ثابت لا يتغير طوال مدة الاستخدام.
+سرعة عالية واستقرار قوي للاتصال.
+دعم كامل لبروتوكولات HTTP و SOCKS5.
+إمكانية اختيار الدولة والمدينة بدقة.
+مثالية للمشاريع الطويلة التي تتطلب اتصالاً موثوقًا ودائمًا.
+🏠 Temporary Residential Proxies | بروكسيات ريزيدنتال مؤقتة
+بروكسيات ريزيدنتال مؤقتة هي عناوين IP حقيقية من شبكات منازل فعلية، تمنحك اتصالًا طبيعيًا يشبه تمامًا اتصال المستخدمين الحقيقيين، مما يجعلها صعبة التتبع أو الحظر من المواقع.
+تُعتبر الخيار المثالي للمهام القصيرة مثل التحقق من الحسابات، الاختبارات، أو المهام المؤقتة التي تتطلب اتصالًا واقعيًا وآمنًا.
+⏱️ المدة: من 2 إلى 12 ساعة حسب الحاجة.
+✅ المميزات | Features:
+مصدرها شبكات حقيقية لمستخدمين فعليين.
+تتبدل تلقائيًا بعد انتهاء المدة المحددة.
+مستوى عالٍ من الخصوصية وعدم الكشف عن الهوية.
+أداء ممتاز في التصفح، الاختبارات، والتطبيقات المؤقتة.
+مثالية للمهام القصيرة التي تتطلب اتصالًا حقيقيًا وموثوقًا.                `,
+                author: 'أكاديمية كن',
+                date: '',
+                rating: 4.5
+            }
         },
         {
             id: 4,
             type: 'bots',
             name: 'Armor Services Bot (Proxy)',
-            description: 'بوت خدمات بروكسيات محمية وآمنة',
+            description: '',
             logo: '🛡️',
             url: 'https://t.me/Armor_Services_Bot?start=464674674',
             rating: 3.6,
@@ -7021,7 +7109,7 @@ function loadData() {
             id: 5,
             type: 'bots',
             name: 'Digital X Services (Proxy)',
-            description: 'خدمات رقمية متقدمة للبروكسيات',
+            description: '',
             logo: '💎',
             url: 'https://t.me/Digital_X_Services_bot?start=464674674',
             rating: 5,
@@ -7033,7 +7121,7 @@ function loadData() {
             id: 6,
             type: 'bots',
             name: 'Captain Proxy',
-            description: 'بوت كابتن البروكسيات',
+            description: '',
             logo: '👨‍✈️',
             url: 'https://t.me/Captain_Proxy_bot?start=ref_464674674',
             rating: 3.1,
@@ -7045,7 +7133,7 @@ function loadData() {
             id: 7,
             type: 'bots',
             name: 'AzCompany bot (Proxy)',
-            description: 'بوت شركة AZ للبروكسيات',
+            description: '',
             logo: '🏢',
             url: 'https://t.me/AzCompany11_bot?start=464674674',
             rating: 3,
@@ -7056,7 +7144,7 @@ function loadData() {
             id: 8,
             type: 'bots',
             name: 'AlaaDeen bot (Proxy)',
-            description: 'بوت بروكسيات عالي التقييم',
+            description: '',
             logo: '🤖',
             url: 'https://t.me/AlaaDeen_SMS_BOT?start=ref_464674674',
             rating: 4.5,
@@ -7067,7 +7155,7 @@ function loadData() {
             id: 9,
             type: 'bots',
             name: 'pws verify bot (Proxy)',
-            description: 'بوت بروكسيات موثوق ومتقدم',
+            description: '',
             logo: '✅',
             url: 'https://t.me/pwsverify_bot?start=464674674',
             rating: 5,
@@ -7078,7 +7166,7 @@ function loadData() {
             id: 10,
             type: 'bots',
             name: '4G-proxy network (jsham_bot)',
-            description: 'شبكة بروكسيات 4G متطورة',
+            description: '',
             logo: '🌐',
             url: 'https://t.me/jsham_bot?start=Nzg3NTguNDY0Njc0Njc0',
             rating: 5,
@@ -7089,7 +7177,7 @@ function loadData() {
             id: 11,
             type: 'bots',
             name: 'proxy power bot',
-            description: 'بوت بروكسيات قوي وسريع',
+            description: '',
             logo: '⚡',
             url: 'https://t.me/ProxyPower_bot?start=ODExOTEuNDY0Njc0Njc0',
             rating: 4.5,
@@ -7100,7 +7188,7 @@ function loadData() {
             id: 12,
             type: 'bots',
             name: 'Legend 5G Proxy bot',
-            description: 'بوت بروكسيات 5G أسطوري',
+            description: '',
             logo: '👑',
             url: 'https://t.me/Legend5GProxy_bot?start=ODYyNjEuNDY0Njc0Njc0',
             rating: 4.5,
@@ -7111,7 +7199,7 @@ function loadData() {
             id: 13,
             type: 'bots',
             name: 'Socks Proxies Bot',
-            description: 'بوت متخصص في بروكسيات SOCKS',
+            description: '',
             logo: '🧦',
             url: 'https://t.me/Socks_Proxies_Bot?start=ref_464674674',
             rating: 4.5,
@@ -7122,7 +7210,7 @@ function loadData() {
             id: 14,
             type: 'bots',
             name: 'Sky proxy 5G bot',
-            description: 'بوت بروكسيات 5G سريع كالسماء',
+            description: '',
             logo: '☁️',
             url: 'https://t.me/Skyproxy5G_bot',
             rating: 4,
@@ -7141,21 +7229,10 @@ function loadData() {
             category: 'بروكسيات'
         },
         {
-            id: 16,
-            type: 'bots',
-            name: 'Shaikh AlKar Bot (Proxy)',
-            description: 'بوت الشيخ الكر للبروكسيات',
-            logo: '👨‍💼',
-            url: 'https://t.me/Shaikh_AlKar_Bot?start=464674674',
-            rating: 3.4,
-            price: 'مدفوع',
-            category: 'بروكسيات'
-        },
-        {
             id: 17,
             type: 'bots',
             name: 'HQ Proxies bot',
-            description: 'بوت بروكسيات عالية الجودة',
+            description: '',
             logo: '⭐',
             url: 'https://t.me/HQProxies_bot?start=kJljLXUS',
             rating: 3.4,
@@ -7166,7 +7243,7 @@ function loadData() {
             id: 18,
             type: 'bots',
             name: 'SP5 Proxies',
-            description: 'بوت بروكسيات SP5 متخصص',
+            description: '',
             logo: '🔧',
             url: 'https://t.me/SP5Proxies_BOT?start=Nzg3NTUuNDY0Njc0Njc0',
             rating: 3.1,
@@ -7188,7 +7265,7 @@ function loadData() {
             id: 20,
             type: 'bots',
             name: 'Real Proxy bot',
-            description: 'بوت بروكسيات حقيقية',
+            description: '',
             logo: '✅',
             url: 'https://t.me/Real_Proxy_bot?start=Nzg4MzYuNDY0Njc0Njc0',
             rating: 3.2,
@@ -7199,7 +7276,7 @@ function loadData() {
             id: 21,
             type: 'bots',
             name: 'Mars Proxies bot',
-            description: 'بوت بروكسيات المريخ',
+            description: '',
             logo: '🔴',
             url: 'https://t.me/MarsProxies_bot?start=Nzg4MzcuNDY0Njc0Njc0',
             rating: 3.4,
@@ -7210,7 +7287,7 @@ function loadData() {
             id: 22,
             type: 'bots',
             name: 'Crystal 5G Proxy bot',
-            description: 'بوت بروكسيات 5G بلورية',
+            description: '',
             logo: '💎',
             url: 'https://t.me/Crystal5GProxy_bot?start=Nzg4MzkuNDY0Njc0Njc0',
             rating: 3.3,
@@ -7221,7 +7298,7 @@ function loadData() {
             id: 23,
             type: 'bots',
             name: 'TepoBest5G_Bot',
-            description: 'بوت تيبو أفضل 5G',
+            description: '',
             logo: '🚀',
             url: 'https://t.me/TepoBest5G_Bot',
             rating: 3.5,
@@ -7232,7 +7309,7 @@ function loadData() {
             id: 24,
             type: 'bots',
             name: 'Sp5 ShopBot',
-            description: 'بوت متجر SP5',
+            description: '',
             logo: '🛒',
             url: 'https://t.me/Sp5_ShopBot',
             rating: 3.6,
@@ -7243,7 +7320,7 @@ function loadData() {
             id: 25,
             type: 'bots',
             name: 'Sy services bot (Proxy)',
-            description: 'بوت خدمات سوريا للبروكسيات',
+            description: '',
             logo: '🇸🇾',
             url: 'https://t.me/lifepointtread24130BOT',
             rating: 3.1,
@@ -7254,7 +7331,7 @@ function loadData() {
             id: 26,
             type: 'bots',
             name: 'J4U Mobile Proxy bot',
-            description: 'بوت بروكسيات جوال J4U',
+            description: '',
             logo: '📱',
             url: 'https://t.me/J4U_MobileProxy_bot?start=ODg2MDMuNDY0Njc0Njc0',
             rating: 3.3,
@@ -7265,7 +7342,7 @@ function loadData() {
             id: 27,
             type: 'bots',
             name: 'Proxy Nar bot (Proxy)',
-            description: 'بوت بروكسيات نار',
+            description: '',
             logo: '🔥',
             url: 'https://t.me/ProxyNar_bot?start=a05b331f-6794-4',
             rating: 3.1,
@@ -7276,7 +7353,7 @@ function loadData() {
             id: 28,
             type: 'bots',
             name: 'Work Trek Proxies 5G bot',
-            description: 'بوت بروكسيات 5G العمل',
+            description: '',
             logo: '💼',
             url: 'https://t.me/WorkTrekProxies5Gbot?start=464674674',
             rating: 3,
@@ -7287,7 +7364,7 @@ function loadData() {
             id: 29,
             type: 'bots',
             name: 'Al Areen Bot Services',
-            description: 'خدمات بوت العرين',
+            description: '',
             logo: '🌹',
             url: 'https://t.me/AlAreenServices_bot',
             rating: 4,
@@ -7309,7 +7386,7 @@ function loadData() {
             id: 31,
             type: 'bots',
             name: 'Leader jumper bot',
-            description: 'بوت القائد القافز',
+            description: '',
             logo: '🏃‍♂️',
             url: 'https://t.me/Leaderjumper_bot',
             rating: 4.5,
@@ -7320,7 +7397,7 @@ function loadData() {
             id: 32,
             type: 'bots',
             name: 'Style Proxy bot',
-            description: 'بوت بروكسيات أنيق',
+            description: '',
             logo: '✨',
             url: 'https://t.me/StyleProxyBot',
             rating: 4,
@@ -7342,7 +7419,7 @@ function loadData() {
             id: 34,
             type: 'bots',
             name: 'ultra 5G Proxy bot',
-            description: 'بوت بروكسيات 5G فائق',
+            description: '',
             logo: '⚡',
             url: 'https://t.me/ultra5GProxy_bot',
             rating: 3,
@@ -7364,23 +7441,10 @@ function loadData() {
             id: 36,
             type: 'bots',
             name: 'Proxy Universe Bot',
-            description: 'بوت كون البروكسيات',
+            description: '',
             logo: '🌌',
             url: 'https://t.me/ProxyUniverseBot?start=464674674',
             rating: 3.3,
-            price: 'مدفوع',
-            category: 'بروكسيات'
-        },
-        
-        // مواقع البروكسيات
-        {
-            id: 38,
-            type: 'sites',
-            name: 'novada.com',
-            description: 'موقع بروكسيات نوفادا',
-            logo: '🌐',
-            url: 'https://novada.com/sign-up/?referral_code=ZXKk93',
-            rating: 3.4,
             price: 'مدفوع',
             category: 'بروكسيات'
         },
@@ -7388,13 +7452,16 @@ function loadData() {
             id: 37,
             type: 'bots',
             name: 'pr0xy hub bot',
-            description: 'بوت مركز البروكسيات',
+            description: '',
             logo: '🎯',
             url: 'http://t.me/pr0xyhubbot?start=464674674',
             rating: 3.4,
             price: 'مدفوع',
             category: 'بروكسيات'
         },
+        
+        // مواقع البروكسيات
+        
         {
             id: 38,
             type: 'sites',
@@ -7421,7 +7488,7 @@ function loadData() {
             id: 40,
             type: 'sites',
             name: 'blurpath.com',
-            description: 'مسار بروكسيات مخفي وآمن',
+            description: '',
             logo: '👻',
             url: 'https://dashboard.blurpath.com/register?invitation_code=blgxz2ykt8',
             rating: 3.5,
@@ -7465,7 +7532,7 @@ function loadData() {
             id: 44,
             type: 'sites',
             name: 'geonode.com',
-            description: 'موقع بروكسيات GeoNode',
+            description: '',
             logo: '🌍',
             url: 'https://geonode.com/?ref=147422',
             rating: 3.1,
@@ -7476,7 +7543,7 @@ function loadData() {
             id: 45,
             type: 'sites',
             name: 'lightningproxies.net',
-            description: 'بروكسيات البرق السريعة',
+            description: '',
             logo: '⚡',
             url: 'https://app.lightningproxies.net/register?referral=689bffec2e73c05f551b0686',
             rating: 3.5,
@@ -7487,7 +7554,7 @@ function loadData() {
             id: 46,
             type: 'sites',
             name: 'hypeproxies.com',
-            description: 'بروكسيات عالية الأداء',
+            description: '',
             logo: '🔥',
             url: 'https://dash.hypeproxies.com/aff.php?aff=567',
             rating: 4.5,
@@ -7498,7 +7565,7 @@ function loadData() {
             id: 47,
             type: 'sites',
             name: 'naproxy.com',
-            description: 'موقع بروكسيات NA',
+            description: '',
             logo: '🌐',
             url: 'https://www.naproxy.com/register?invitation_code=USAWUX',
             rating: 3.1,
@@ -7509,7 +7576,7 @@ function loadData() {
             id: 48,
             type: 'sites',
             name: 'fleetproxy.io',
-            description: 'أسطول بروكسيات متطور',
+            description: '',
             logo: '🚢',
             url: 'https://fleetproxy.io/?k=KunAcademy',
             rating: 5,
@@ -7520,10 +7587,21 @@ function loadData() {
             id: 49,
             type: 'sites',
             name: '922proxy.com',
-            description: 'موقع بروكسيات 922',
+            description: '',
             logo: '🔢',
             url: 'https://www.922proxy.com/register?inviter_code=c8bdc8ea',
             rating: 3.1,
+            price: 'مدفوع',
+            category: 'بروكسيات'
+        },
+         {
+            id: 50,
+            type: 'sites',
+            name: 'webshare.io',
+            description: '',
+            logo: '🔗',
+            url: 'https://www.webshare.io/?referral_code=5g8exxu08yxv',
+            rating: 4,
             price: 'مدفوع',
             category: 'بروكسيات'
         },
@@ -7533,7 +7611,7 @@ function loadData() {
             id: 51,
             type: 'bots',
             name: 'EZNumber_K_Bot (Numbers)',
-            description: 'بوت أرقام EZNumber K',
+            description: 'بوت مميز بقدم العديد من الخدمات، منها بروكسي الروتيت وبروكسي الحقن، وأكتر شي بيتميز فيه هوي الأرقام سواء الدائمة أو المؤقتة مع توفر عدة سيرفرات وبأرخص الأسعار بالسوق، وكمان بوفر بطاقات فيزا مناسبة لربط حسابات البايبال، وأرقام SSN، وأرقام تلغرام جاهزة للتفعيل',            logo: '🤖',
             logo: '📱',
             url: 'https://t.me/EZNumber_K_Bot?start=464674674',
             rating: 5,
@@ -7542,33 +7620,84 @@ function loadData() {
             kunGuarantee: true
         },
         {
-            id: 50,
-            type: 'sites',
-            name: 'webshare.io',
-            description: 'مشاركة بروكسيات SOCKS5',
-            logo: '🔗',
-            url: 'https://www.webshare.io/?referral_code=5g8exxu08yxv',
-            rating: 4,
-            price: 'مدفوع',
-            category: 'بروكسيات'
-        },
-        {
             id: 52,
             type: 'bots',
             name: 'rocket slimansa bot (Numbers Temp)',
-            description: 'بوت أرقام صاروخية مؤقتة',
-            logo: '🚀',
+            description: 'بوت سليمان الثاني المخصص لبروكسيات الستاتيك بأنواعها العديدة، وأرقام التفعيل الدائمة والمؤقتة، وأهم شي قسم الخدمات يلي بيتضمن العديد من الحسابات الجاهزة للعمل',            logo: '🚀',
             url: 'https://t.me/rocket_slimansa_bot?start=464674674',
             rating: 5,
             price: 'مدفوع',
             category: 'أرقام مؤقتة',
-            kunGuarantee: true
+            kunGuarantee: true,
+                review: {
+                title: 'مراجعة أكاديمية كن - بوت 5G Proxy SlimanSa',
+                content: `☑️ مراجعة شاملة – Rocket SlimanSa 
+
+📌 إذا كنت من متابعي مجال الاستبيانات، الألعاب، وتفعيل الحسابات فأنت أكيد سمعت باسم سليمان، صاحب البوت المشهور والمعروف ProxySlimanSa Bot 🔥.
+
+اليوم، سليمان بيرجع بخطوة جديدة وبيقدملنا منتج مميز:
+⭐ Rocket SlimanSa Bot ⭐
+بوت شامل بيجمع كل الأدوات والخدمات الضرورية بمكان واحد، مع أسعار منافسة ودعم متواصل.
+
+🌄 أبرز المميزات
+📱 الأرقام:
+أرقام مؤقتة لتفعيل الأكواد.
+أرقام دائمة (إيجار).
+📉بأسعار منافسة بقوة مقارنة بالسوق العالمي.
+
+🛡 البروكسيات:
+Static Residential (IPv4 ISP).
+خيارات متعددة (Basic – Dedicated – Premium).
+استقرار عالي وسرعة ممتازة.
+
+ملاحظة مهمة: عن قريب رح يتم إطلاق نوع جديد ومميز من البروكسيات رح يغير مفهوم الشغل بشكل كامل.
+
+📦 المنتجات الرقمية:
+🆔 أرقام SSN مع بيانات دقيقة (بعدة ولايات أمريكية).
+📧 إيميلات Gmail مع كفالة 48 ساعة.
+✍️ حسابات استبيانات جاهزة (Opinion Edge – Toluna – MyPoints – Lifepoints... وغيرن).
+💲 حسابات بايبال (كندي – مأكد SSN – مأكد SSN + بنك).
+
+🖥 سهولة الاستخدام والدفع:
+واجهة منظمة وسهلة.
+شحن رصيد مباشر.
+دعم فني متجاوب معك.
+
+☑️ ليش تختار Rocket SlimanSa Bot؟
+لأنه من منتجات سليمان، صاحب خبرة كبيرة بمجال البروكسيات.
+لأنه بيوفرلك كل الخدمات الأساسية بمكان واحد.
+لأنه بأسعار منافسة جداً خصوصاً بالأرقام.
+لأنه فيه تحديثات مستمرة ومفاجآت قادمة رح تعزز الخدمات وتفتحلك آفاق جديدة.
+
+🔥 الخلاصة
+Rocket SlimanSa Bot مو مجرد بوت جديد…
+هو تطور طبيعي من خبرة طويلة في مجال البروكسيات والخدمات الرقمية.
+معه بتلاقي:
+أدوات جاهزة.
+أسعار منافسة.
+تطوير مستمر.
+                `,
+                author: 'أكاديمية كن',
+                date: '',
+                rating: 5
+            }
+        },
+         {
+            id: 53,
+            type: 'bots',
+            name: 'NITRO SMS (Numbers Temp)',
+            description: 'بوت نيترو للأرقام الدائمة والمؤقتة',
+            logo: '👨‍💼',
+            url: 'https://t.me/NIT_SMS_BOT?start=464674674',
+            rating: 4,
+            price: 'مدفوع',
+            category: 'أرقام مؤقتة'
         },
         {
             id: 53,
             type: 'bots',
             name: 'Shaikh AlKar Bot (Numbers Temp)',
-            description: 'بوت أرقام الشيخ الكر مؤقتة',
+            description: 'بوت أرقام شيخ الكار مؤقتة',
             logo: '👨‍💼',
             url: 'https://t.me/Shaikh_AlKar_Bot?start=464674674',
             rating: 3.6,
@@ -7590,7 +7719,7 @@ function loadData() {
             id: 55,
             type: 'bots',
             name: 'Bermuda',
-            description: 'بوت أرقام برمودا',
+            description: '',
             logo: '🌊',
             url: 'https://t.me/Bermuda_Services_bot?start=464674674',
             rating: 3.1,
@@ -7601,7 +7730,7 @@ function loadData() {
             id: 58,
             type: 'bots',
             name: 'Lte survey (L2E_Verify)',
-            description: 'بوت استطلاع LTE للتحقق',
+            description: '',
             logo: '📊',
             url: 'https://t.me/L2E_Verify_bot?start=22112',
             rating: 3.5,
@@ -7612,7 +7741,7 @@ function loadData() {
             id: 59,
             type: 'bots',
             name: 'PXT Numbers',
-            description: 'بوت أرقام PXT موثوق',
+            description: '',
             logo: '📞',
             url: 'https://t.me/PXTNumbersBot',
             rating: 3.5,
@@ -7623,7 +7752,7 @@ function loadData() {
             id: 60,
             type: 'bots',
             name: 'Armor Services Bot (Numbers Temp)',
-            description: 'خدمات أرقام مؤقتة محمية',
+            description: '',
             logo: '🛡️',
             url: 'https://t.me/Armor_Services_Bot?start=464674674',
             rating: 4.5,
@@ -7635,7 +7764,7 @@ function loadData() {
             id: 61,
             type: 'bots',
             name: 'Style SMS',
-            description: 'بوت رسائل أنيق',
+            description: '',
             logo: '✨',
             url: 'https://t.me/StyleSmsBot',
             rating: 3,
@@ -7646,7 +7775,7 @@ function loadData() {
             id: 62,
             type: 'bots',
             name: 'STS MOBILE BOT',
-            description: 'بوت جوال STS',
+            description: '',
             logo: '📱',
             url: 'https://t.me/STSMOBILEBOT',
             rating: 3.6,
@@ -7657,7 +7786,7 @@ function loadData() {
             id: 63,
             type: 'bots',
             name: 'AzCompany (Numbers)',
-            description: 'شركة AZ للأرقام',
+            description: '',
             logo: '🏢',
             url: 'https://t.me/AzCompany11_bot?start=464674674',
             rating: 4,
@@ -7668,7 +7797,7 @@ function loadData() {
             id: 64,
             type: 'bots',
             name: 'Baraa Charger',
-            description: 'بوت شحن براء للأرقام',
+            description: '',
             logo: '🔋',
             url: 'https://t.me/Baraa_Charger_bot',
             rating: 4.5,
@@ -7679,7 +7808,7 @@ function loadData() {
             id: 65,
             type: 'bots',
             name: 'CyberZone',
-            description: 'بوت المنطقة السيبرانية',
+            description: '',
             logo: '🌐',
             url: 'https://t.me/CyberZone_25_BOT',
             rating: 3.3,
@@ -7701,7 +7830,7 @@ function loadData() {
             id: 67,
             type: 'bots',
             name: 'AreenNumber_bot',
-            description: 'بوت أرقام مؤقتة عالي التقييم',
+            description: '',
             logo: '📱',
             url: 'https://t.me/AreenNumber_bot?start=REFNNQ8O8',
             rating: 5,
@@ -7712,7 +7841,7 @@ function loadData() {
             id: 68,
             type: 'bots',
             name: 'Proxy Nar bot (Numbers)',
-            description: 'بوت أرقام نار',
+            description: '',
             logo: '🔥',
             url: 'https://t.me/ProxyNar_bot?start=a05b331f-6794-4',
             rating: 4.5,
@@ -7723,7 +7852,7 @@ function loadData() {
             id: 69,
             type: 'bots',
             name: 'pws verify bot (Numbers)',
-            description: 'بوت تحقق PWS للأرقام',
+            description: '',
             logo: '✅',
             url: 'https://t.me/pwsverify_bot?start=464674674',
             rating: 3.5,
@@ -7745,7 +7874,7 @@ function loadData() {
             id: 71,
             type: 'bots',
             name: 'MZH Mozaic BOT',
-            description: 'بوت فسيفساء MZH',
+            description: '',
             logo: '🎨',
             url: 'https://t.me/MZH_MozaicBOT?start=invite_464674674',
             rating: 3.4,
@@ -7788,11 +7917,22 @@ function loadData() {
         },
         
         // بوتات الأرقام الدائمة
+          {
+            id: 53,
+            type: 'bots',
+            name: 'NITRO SMS (Permanent)',
+            description: 'بوت نيترو للأرقام الدائمة والمؤقتة',
+            logo: '👨‍💼',
+            url: 'https://t.me/NIT_SMS_BOT?start=464674674',
+            rating: 4,
+            price: 'مدفوع',
+            category: 'أرقام دائمة'
+        },
         {
             id: 75,
             type: 'bots',
             name: 'Shaikh_AlKar_Bot (Permanent)',
-            description: 'بوت الشيخ الكر للأرقام الدائمة',
+            description: 'بوت شيخ الكار للأرقام الدائمة',
             logo: '👨‍💼',
             url: 'https://t.me/Shaikh_AlKar_Bot?start=464674674',
             rating: 3.5,
@@ -7803,7 +7943,7 @@ function loadData() {
             id: 76,
             type: 'bots',
             name: 'Lte survey (Permanent)',
-            description: 'بوت استطلاع LTE للأرقام الدائمة',
+            description: 'بوت LTE للأرقام الدائمة',
             logo: '📊',
             url: 'https://t.me/L2E_Verify_bot',
             rating: 3.4,
@@ -7814,7 +7954,7 @@ function loadData() {
             id: 77,
             type: 'bots',
             name: 'PXT Numbers (Permanent)',
-            description: 'أرقام دائمة PXT',
+            description: '',
             logo: '📞',
             url: 'https://t.me/PXTNumbersBot',
             rating: 5,
@@ -7825,7 +7965,7 @@ function loadData() {
             id: 78,
             type: 'bots',
             name: 'Armor Services Bot (Permanent)',
-            description: 'خدمات أرقام دائمة محمية',
+            description: '',
             logo: '🛡️',
             url: 'https://t.me/Armor_Services_Bot?start=464674674',
             rating: 3.5,
@@ -7837,7 +7977,7 @@ function loadData() {
             id: 79,
             type: 'bots',
             name: 'Style SMS (Permanent)',
-            description: 'بوت رسائل أنيق للأرقام الدائمة',
+            description: '',
             logo: '✨',
             url: 'https://t.me/StyleSmsBot',
             rating: 3.5,
@@ -7848,7 +7988,7 @@ function loadData() {
             id: 80,
             type: 'bots',
             name: 'CyberZone (Permanent)',
-            description: 'بوت المنطقة السيبرانية للأرقام الدائمة',
+            description: '',
             logo: '🌐',
             url: 'https://t.me/CyberZone_25_BOT',
             rating: 3,
@@ -7859,7 +7999,7 @@ function loadData() {
             id: 81,
             type: 'bots',
             name: 'AreenNumber_bot (Permanent)',
-            description: 'أرقام دائمة عرين',
+            description: '',
             logo: '📱',
             url: 'https://t.me/AreenNumber_bot',
             rating: 3.5,
@@ -7883,13 +8023,66 @@ function loadData() {
             id: 83,
             type: 'bots',
             name: 'rocket slimansa bot (Accounts)',
-            description: 'حسابات استبيانات صاروخية',
-            logo: '🚀',
+            description: 'بوت سليمان الثاني المخصص لبروكسيات الستاتيك بأنواعها العديدة، وأرقام التفعيل الدائمة والمؤقتة، وأهم شي قسم الخدمات يلي بيتضمن العديد من الحسابات الجاهزة للعمل',            logo: '🚀',
+            logo: '👨‍💼',
             url: 'https://t.me/rocket_slimansa_bot?start=464674674',
-            rating: 4,
+            rating: 5,
             price: 'مدفوع',
+            category: 'حسابات استبيانات',
             kunGuarantee: true,
-            category: 'حسابات استبيانات'
+                review: {
+                title: 'مراجعة أكاديمية كن - بوت 5G Proxy SlimanSa',
+                content: `☑️ مراجعة شاملة – Rocket SlimanSa 
+
+📌 إذا كنت من متابعي مجال الاستبيانات، الألعاب، وتفعيل الحسابات فأنت أكيد سمعت باسم سليمان، صاحب البوت المشهور والمعروف ProxySlimanSa Bot 🔥.
+
+اليوم، سليمان بيرجع بخطوة جديدة وبيقدملنا منتج مميز:
+⭐ Rocket SlimanSa Bot ⭐
+بوت شامل بيجمع كل الأدوات والخدمات الضرورية بمكان واحد، مع أسعار منافسة ودعم متواصل.
+
+🌄 أبرز المميزات
+📱 الأرقام:
+أرقام مؤقتة لتفعيل الأكواد.
+أرقام دائمة (إيجار).
+📉بأسعار منافسة بقوة مقارنة بالسوق العالمي.
+
+🛡 البروكسيات:
+Static Residential (IPv4 ISP).
+خيارات متعددة (Basic – Dedicated – Premium).
+استقرار عالي وسرعة ممتازة.
+
+ملاحظة مهمة: عن قريب رح يتم إطلاق نوع جديد ومميز من البروكسيات رح يغير مفهوم الشغل بشكل كامل.
+
+📦 المنتجات الرقمية:
+🆔 أرقام SSN مع بيانات دقيقة (بعدة ولايات أمريكية).
+📧 إيميلات Gmail مع كفالة 48 ساعة.
+✍️ حسابات استبيانات جاهزة (Opinion Edge – Toluna – MyPoints – Lifepoints... وغيرن).
+💲 حسابات بايبال (كندي – مأكد SSN – مأكد SSN + بنك).
+
+🖥 سهولة الاستخدام والدفع:
+واجهة منظمة وسهلة.
+شحن رصيد مباشر.
+دعم فني متجاوب معك.
+
+☑️ ليش تختار Rocket SlimanSa Bot؟
+لأنه من منتجات سليمان، صاحب خبرة كبيرة بمجال البروكسيات.
+لأنه بيوفرلك كل الخدمات الأساسية بمكان واحد.
+لأنه بأسعار منافسة جداً خصوصاً بالأرقام.
+لأنه فيه تحديثات مستمرة ومفاجآت قادمة رح تعزز الخدمات وتفتحلك آفاق جديدة.
+
+🔥 الخلاصة
+Rocket SlimanSa Bot مو مجرد بوت جديد…
+هو تطور طبيعي من خبرة طويلة في مجال البروكسيات والخدمات الرقمية.
+معه بتلاقي:
+أدوات جاهزة.
+أسعار منافسة.
+تطوير مستمر.
+                `,
+                author: 'أكاديمية كن',
+                date: '',
+                rating: 5
+            }
+
         },
         {
             id: 84,
@@ -7971,25 +8164,13 @@ function loadData() {
     promotionsData = [
         {
             id: 1,
-            title: '💰 بونص مميز لمدة محدودة!',
-            description: 'اشحن أي مبلغ خلال 36 ساعة واحصل على مكافأة فورية!',
-            provider: '5G Proxy SlimanSa',
+            title: '💰 كاش باك مميز على عمليات شراء الحسابات!',
+            description: 'قم بشراء حساب ما من البوت واحصل على قيمة مستردة من المال!',
+            provider: 'rocket slimansa bot',
             providerLogo: '🤖',
-            providerUrl: 'https://t.me/ProxySlimanSa_bot?start=NzY2NTAuNDY0Njc0Njc0',
-            type: 'bonus',
-            validUntil: '2024-02-15',
-            isActive: true,
-            kunGuarantee: true
-        },
-         {
-            id: 1,
-            title: '💰 بونص مميز لمدة محدودة!',
-            description: 'اشحن أي مبلغ خلال 36 ساعة واحصل على مكافأة فورية!',
-            provider: '5G Proxy SlimanSa',
-            providerLogo: '🤖',
-            providerUrl: 'https://t.me/ProxySlimanSa_bot?start=NzY2NTAuNDY0Njc0Njc0',
-            type: 'bonus',
-            validUntil: '2024-02-15',
+            providerUrl: 'https://t.me/rocket_slimansa_bot?start=464674674',
+            type: 'kashback',
+            validUntil: '',
             isActive: true,
             kunGuarantee: true
         }
@@ -8003,12 +8184,12 @@ function loadData() {
             excerpt: 'كورس عملي شامل يشرح من الصفر حتى الاحتراف كيفية تعديل القيم داخل الألعاب باستخدام Game Guardian',
             content: 'محتوى الكورس الكامل...',
             author: 'Wizard',
-            date: '2024-01-20',
+            date: '',
             category: 'كورسات',
-            readTime: '45 دقيقة',
+            readTime: '',
             image: '🎮',
             url: 'https://t.me/SurveyGameCashAcademychat/8643/8647',
-            rating: 4.5,
+            rating: 5,
             price: '$15',
             subscriptionType: 'دائم (مدى الحياة)',
             source: 'https://wizardxxx.com/',
@@ -8058,8 +8239,8 @@ function loadData() {
 ⚡ ونؤكد أننا في أكاديمية كن لا نروج إلا لما نراه ذو قيمة علمية وعملية حقيقية ويعود بالفائدة المباشرة على المستخدم.
                 `,
                 author: 'أكاديمية كن',
-                date: '2024-01-25',
-                rating: 4.5
+                date: '',
+                rating: 5
             }
         },
         {
@@ -8068,12 +8249,12 @@ function loadData() {
             excerpt: 'كورس احترافي شامل يشرح إعداد بيئة عمل متكاملة وآمنة لتجاوز الاستبيانات بطريقة آلية',
             content: 'محتوى الكورس الكامل...',
             author: 'Wizard',
-            date: '2024-01-18',
+            date: '',
             category: 'كورسات',
-            readTime: '60 دقيقة',
+            readTime: '',
             image: '🤖',
             url: 'https://t.me/SurveyGameCashAcademychat/8643/9384',
-            rating: 4.5,
+            rating: 5,
             price: '$15',
             subscriptionType: 'دائم (مدى الحياة)',
             source: 'https://wizardxxx.com/',
@@ -8116,35 +8297,9 @@ function loadData() {
 ⚡ ونؤكد أننا في أكاديمية كن لا نروج إلا لما نراه ذو قيمة علمية وعملية حقيقية ويعود بالفائدة المباشرة على المستخدم.
                 `,
                 author: 'أكاديمية كن',
-                date: '2024-01-26',
-                rating: 4.5
+                date: '',
+                rating: 5
             }
-        },
-        {
-            id: 3,
-            title: 'كورس توليد إحالات Lifepoints - Silver',
-            excerpt: 'تعلم كيفية توليد إحالات فعالة لموقع Lifepoints',
-            content: 'محتوى الكورس الكامل...',
-            author: 'Silver',
-            date: '2024-01-16',
-            category: 'كورسات',
-            readTime: '30 دقيقة',
-            image: '🔗',
-            url: 'https://t.me/SurveyGameCashAcademychat/3882/10028',
-            rating: 4.5
-        },
-        {
-            id: 4,
-            title: 'كورس Resuelv+ - Fadi Ss',
-            excerpt: 'تعلم استخدام منصة Resuelv+ للربح من الاستبيانات',
-            content: 'محتوى الكورس الكامل...',
-            author: 'Fadi Ss',
-            date: '2024-01-14',
-            category: 'كورسات',
-            readTime: '25 دقيقة',
-            image: '📊',
-            url: 'https://t.me/SurveyGameCashAcademychat/3882/12272',
-            rating: 3.5
         },
         {
             id: 5,
@@ -8152,7 +8307,7 @@ function loadData() {
             excerpt: 'قناة تعليمية متخصصة في الربح من الإنترنت والأدوات الرقمية',
             content: 'محتوى القناة...',
             author: 'fojo learning hub',
-            date: '2024-01-12',
+            date: '',
             category: 'قنوات يوتيوب',
             readTime: 'مستمر',
             image: '📺',
@@ -8165,7 +8320,7 @@ function loadData() {
             excerpt: 'قناة متخصصة في الاستبيانات وطرق الربح منها',
             content: 'محتوى القناة...',
             author: 'Survey Master TV',
-            date: '2024-01-10',
+            date: '',
             category: 'قنوات يوتيوب',
             readTime: 'مستمر',
             image: '📺',
@@ -8563,8 +8718,156 @@ function loadData() {
             useCases: ['كتابة المحتوى', 'البرمجة', 'التعلم', 'البحث'],
             rating: 4.8
         },
-        
-        // تطبيقات الربح من الألعاب
+        {
+    id: 2,
+    name: 'Perplexity',
+    description: 'أداة بحث وإجابات معتمدة على الذكاء الصنعي تقدم ملخصات واقتراحات دقيقة',
+    type: 'ذكاء صنعي',
+    url: 'https://www.perplexity.ai',
+    icon: '🧠',
+    features: ['بحث ذكي', 'إجابات دقيقة', 'ملخصات فورية', 'اقتراحات بحث متقدمة'],
+    detailedFeatures: [
+        'بحث مباشر باستخدام الذكاء الصنعي',
+        'تقديم ملخصات فورية للمحتوى',
+        'اقتراحات بحث متقدمة وتفاعلية',
+        'إجابة على الأسئلة في جميع المجالات',
+        'دعم لغات متعددة',
+        'تحليل النصوص والمصادر',
+        'اقتراح الروابط والمصادر',
+        'إمكانية حفظ نتائج البحث'
+    ],
+    useCases: ['البحث السريع', 'التعلم', 'جمع المعلومات', 'التحليل'],
+    rating: 4.7
+},
+{
+    id: 3,
+    name: 'Comet',
+    description: 'متصفح متقدم يعتمد على الذكاء الصنعي ويوفر أدوات بحث وتفاعل ذكية',
+    type: 'ذكاء صنعي',
+    url: 'https://pplx.ai/grandjony049345',
+    icon: '🔭',
+    features: ['تصفح ذكي', 'بحث آلي متقدم', 'إدارة علامات التبويب', 'دعم الأدوات التفاعلية'],
+    detailedFeatures: [
+        'تصفح المواقع بسرعة وأمان مع دعم الذكاء الصنعي',
+        'إدارة وتحسين علامات التبويب تلقائياً',
+        'بحث فوري ومخصص حسب رغبة المستخدم',
+        'مساعد تفاعلي ذكي لتنفيذ المهام المختلفة',
+        'دعم متعدد للغات واستخدامات متقدمة',
+        'اقتراح وتحليل مصادر وروابط مفيدة',
+        'تلخيص المحتوى واستخراج المعلومات الأساسية',
+        'إمكانية حفظ الجلسات والنتائج للعودة إليها لاحقاً'
+    ],
+    useCases: ['تصفح متقدم', 'البحث الذكي', 'إدارة العمل الرقمي', 'تحليل المعلومات'],
+    rating: 4.8
+},
+{
+    id: 4,
+    name: 'Manus',
+    description: 'منصة كتابة وتحرير نصوص تعتمد على الذكاء الصنعي لتسهيل الإنتاج الأدبي والصحفي',
+    type: 'ذكاء صنعي',
+    url: 'https://manus.im/invitation/TXMU5WZJSJBRS',
+    icon: '✍️',
+    features: ['كتابة ذكية', 'تحرير النصوص', 'تصحيح تلقائي', 'اقتراحات أدبية'],
+    detailedFeatures: [
+        'اقتراح وصياغة المحتوى الأدبي والمهني باستخدام الذكاء الصنعي',
+        'تحسين الأسلوب والتدقيق اللغوي والتصحيحات الفورية',
+        'تلخيص النصوص الطويلة بتقنية متقدمة',
+        'دعم توليد الأفكار وإكمال الجمل تلقائياً',
+        'إمكانية حفظ وتصدير الملفات بسهولة',
+        'دعم متعدد للغات والأنماط الكتابية',
+        'تحليل وتدقيق النصوص بطريقة شاملة',
+        'اقتراحات تحرير وتكثيف المحتوى حسب نوع النص'
+    ],
+    useCases: ['الكتابة الأدبية', 'الكتابة الصحفية', 'تحرير المحتوى', 'تلخيص الأبحاث'],
+    rating: 4.6
+},
+{
+    id: 5,
+    name: 'Leonardo',
+    description: 'منصة متطورة لإنشاء وتعديل الصور والتصاميم باستخدام الذكاء الصنعي',
+    type: 'ذكاء صنعي',
+    url: 'https://app.leonardo.ai/profile/DataEcoHubNova',
+    icon: '🎨',
+    features: ['توليد الصور', 'تحسين التصاميم', 'تعديل تلقائي', 'دعم أنماط فنية متنوعة'],
+    detailedFeatures: [
+        'إنشاء صور وتصاميم فنية بالذكاء الصنعي بدقة عالية',
+        'تعديل وتحسين الصور تلقائياً',
+        'دعم كامل لأنماط ورسومات متعددة مثل الفن التشكيلي والرسم الرقمي',
+        'تخصيص النتائج مع ضبط الألوان والخلفيات والمؤثرات',
+        'إمكانية رفع الصور الأصلية للحصول على تحسينات مباشرة',
+        'تصدير التصاميم بصيغ متعددة',
+        'دعم متقدم لأدوات التحليل والتعديل الذكي',
+        'اقتراحات فورية لأنماط تناسب نوع العمل الإبداعي'
+    ],
+    useCases: ['تصميم الشعارات', 'توليد لوحات فنية', 'تحسين الصور الشخصية', 'إنتاج محتوى بصري'],
+    rating: 4.9
+},
+{
+    id: 16,
+    name: 'Copilot',
+    description: 'مساعد ذكي يعتمد على الذكاء الصنعي لكتابة وتوليد الشيفرات البرمجية وتسهيل تطوير البرمجيات',
+    type: 'ذكاء صنعي',
+    url: 'https://copilot.microsoft.com',
+    icon: '🤖',
+    features: ['كتابة الشيفرة البرمجية', 'اقتراحات ذكية', 'إكمال تلقائي', 'دعم لغات متعددة'],
+    detailedFeatures: [
+        'توليد واقتراح الشيفرات البرمجية مباشرة ضمن بيئة التطوير',
+        'إكمال تلقائي للأسطر البرمجية بناءً على سياق المشروع',
+        'دعم لغات البرمجة الأكثر استخدامًا، مثل بايثون وجافا وجافاسكريبت وغيرها',
+        'تعلم وتحليل أنماط الأكواد والتكيف مع أسلوب المطور',
+        'اقتراح حلول للمهام البرمجية الشائعة والمعقدة',
+        'تحليل وتصحيح الأخطاء بشكل فوري',
+        'تسهيل عمليات كتابة الشيفرة وتقليل وقت التطوير',
+        'دعم بيئات التطوير المتكاملة وأنظمة التعاون البرمجي'
+    ],
+    useCases: ['توليد الشيفرات', 'إكمال الأكواد', 'تعلم البرمجة', 'رفع الإنتاجية البرمجية'],
+    rating: 4.9
+},
+{
+    id: 18,
+    name: 'Monica',
+    description: 'منصة شاملة تعتمد على الذكاء الصنعي لمساعدة المستخدمين في الكتابة والترجمة وإدارة المحتوى الرقمي',
+    type: 'ذكاء صنعي',
+    url: 'https://monica.im/invitation?c=YLK5L22X&source=app_link',
+    icon: '💡',
+    features: ['كتابة ذكية', 'ترجمة فورية', 'مساعد شخصي', 'تلخيص النصوص'],
+    detailedFeatures: [
+        'توليد واقتراح نصوص احترافية بالذكاء الصنعي بمختلف المجالات',
+        'ترجمة فورية ودقيقة للنصوص بين لغات متعددة',
+        'تلخيص المحتوى الطويل إلى نقاط موجزة وسهلة الفهم',
+        'مساعد شخصي لإدارة المهام الرقمية وتنظيم الأعمال',
+        'دعم الكتابة الإبداعية والتحريريّة للمدونات والمقالات والإعلانات',
+        'استخراج الأفكار وتحليل النصوص بسرعة وسهولة',
+        'تصحيح وتدقيق لغوي متقدم',
+        'دعم إنشاء ومزامنة محتوى عبر منصات مختلفة'
+    ],
+    useCases: ['كتابة المحتوى', 'الترجمة الفورية', 'تلخيص النصوص', 'إدارة المهام الرقمية'],
+    rating: 4.7
+},
+{
+    id: 19,
+    name: 'Copy.ai',
+    description: 'منصة ذكية لتوليد المحتوى النصي وتسهيل كتابة النصوص التسويقية والإبداعية باستخدام الذكاء الصنعي',
+    type: 'ذكاء صنعي',
+    url: 'https://www.copy.ai',
+    icon: '✍️',
+    features: ['توليد محتوى تسويقي', 'اقتراح نصوص إبداعية', 'دعم لغات متعددة', 'كتابة تلقائية'],
+    detailedFeatures: [
+        'توليد نصوص تسويقية وإبداعية تلقائياً في ثوانٍ قليلة',
+        'اقتراح أفكار وعبارات ترويجية للشركات والأفراد',
+        'دعم كتابة منشورات المدونات والإعلانات ومحتوى المواقع',
+        'إمكانية تخصيص النص ليناسب الجمهور المستهدف',
+        'تلخيص وتحرير النصوص مع تدقيق لغوي آلي',
+        'دعم إنشاء نصوص بعدة لغات وأنماط مختلفة',
+        'واجهة سهلة وتكامل مع أدوات العمل السحابي',
+        'مساعدة في صياغة الرسائل البريدية والمحتوى الاحترافي'
+    ],
+    useCases: ['كتابة الإعلانات', 'توليد الأفكار التسويقية', 'إنتاج محتوى المواقع', 'تحرير النصوص التجارية'],
+    rating: 4.8
+},
+
+
+ // تطبيقات الربح من الألعاب
         {
             id: 2,
             name: 'Game Guardian',
@@ -8586,6 +8889,242 @@ function loadData() {
             useCases: ['كسب المال', 'تطوير الألعاب', 'الاختبار', 'التحليل'],
             rating: 4.5
         },
+
+
+        
+        // تطبيقات التهكير
+        {
+            id: 2,
+            name: 'Game Guardian',
+            description: 'تطبيق متقدم لتعديل الألعاب وكسب المال من خلال الألعاب',
+            type: 'تهكير',
+            url: 'https://gameguardian.net',
+            icon: '🎮',
+            features: ['تعديل الألعاب', 'كسب المال', 'تسريع الألعاب', 'تعديل القيم'],
+            detailedFeatures: [
+                'تعديل قيم الألعاب',
+                'تسريع الألعاب',
+                'كسب العملات الافتراضية',
+                'فتح المستويات المقفلة',
+                'تعديل الإحصائيات',
+                'حفظ التقدم',
+                'تعديل الملفات',
+                'تحليل الذاكرة'
+            ],
+            useCases: ['كسب المال', 'تطوير الألعاب', 'الاختبار', 'التحليل'],
+            rating: 4.5
+        },
+        {
+    id: 6,
+    name: 'APK Editor Pro',
+    description: 'تطبيق قوي لتحرير ملفات APK يتيح تعديل واستبدال الموارد البرمجية بسهولة',
+    type: 'تهكير',
+    url: 'https://apkeditorpro.com',
+    icon: '🛠️',
+    features: ['تحرير ملفات APK', 'تعديل الموارد', 'إزالة الإعلانات', 'إعادة تجميع الحزم'],
+    detailedFeatures: [
+        'إمكانية تعديل وتحرير ملفات APK مباشرة على الهاتف',
+        'تغيير الأكواد والموارد البرمجية بسهولة',
+        'إزالة أو تعديل الإعلانات والتراخيص',
+        'إعادة تجميع الملفات وتوقيع الحزمة المعدّلة',
+        'دعم تعديل الصور والنصوص بداخل التطبيق',
+        'تصدير نسخة APK جديدة بعد التحسين',
+        'تحليل ومراجعة ملفات التطبيقات المختلفة',
+        'واجهة سهلة الاستخدام تدعم التعديل اليدوي والآلي'
+    ],
+    useCases: ['تخصيص التطبيقات', 'إزالة الإعلانات', 'تحسين الأداء', 'تعريب التطبيقات'],
+    rating: 4.5
+},
+{
+    id: 7,
+    name: 'MT Manager',
+    description: 'تطبيق إدارة وتحرير الملفات المتقدم يقدم أدوات قوية لتحليل وتعديل تطبيقات أندرويد',
+    type: 'تهكير',
+    url: 'https://mtmanager.com',
+    icon: '📂',
+    features: ['إدارة الملفات', 'تحرير APK', 'تحليل موارد التطبيقات', 'تعديل الأكواد'],
+    detailedFeatures: [
+        'إمكانات متقدمة لتحليل وتعديل ملفات تطبيقات أندرويد',
+        'تحرير الموارد والأكواد البرمجية بسهولة واحترافية',
+        'إدارة الملفات بكافة أنواعها داخل الجهاز',
+        'دعم فك ضغط، وتعديل، وإعادة تجميع ملفات APK وZIP',
+        'عرض وتحرير النصوص البرمجية مباشرة',
+        'حماية وتشفير الموارد الهامة',
+        'دعم لغات متعددة وواجهة سهلة التخصيص',
+        'تنفيذ تعديلات جماعية للتطبيقات والملفات'
+    ],
+    useCases: ['تعديل التطبيقات', 'إدارة الملفات البرمجية', 'تحسين الأداء', 'تحليل الموارد'],
+    rating: 4.6
+},
+{
+    id: 8,
+    name: 'Apktool M',
+    description: 'أداة قوية لفك وتجميع تطبيقات الأندرويد وإجراء تعديلات كاملة على ملفات APK بسهولة',
+    type: 'تهكير',
+    url: 'https://apktoolm.com',
+    icon: '⚙️',
+    features: ['تفكيك APK', 'إعادة تجميع الحزم', 'تعديل الموارد', 'تحليل التطبيق'],
+    detailedFeatures: [
+        'فك تجميع تطبيقات أندرويد لاستخراج الموارد والكود المصدري',
+        'إمكانية تعديل الموارد البرمجية والنصوص والصور',
+        'إعادة تجميع التطبيقات بعد التعديل بسرعة وموثوقية',
+        'دعم التعامل مع تطبيقات محمية ومشفرة',
+        'تسهيل عملية تعريب التطبيقات أو تخصيصها بالكامل',
+        'تحليل وبحث متقدم في ملفات التطبيقات',
+        'واجهة منظمة تدعم التعديل اليدوي والآلي',
+        'تصدير ملفات APK معدلة وجاهزة للتثبيت'
+    ],
+    useCases: ['تعريب التطبيقات', 'تعديل الرسوميات والموارد', 'تحليل ملفات APK', 'تخصيص وظائف التطبيقات'],
+    rating: 4.7
+},
+{
+    id: 9,
+    name: 'HackerBot',
+    description: 'منصة متخصصة في البحث عن أدوات الغش والشفرات للألعاب الإلكترونية بطريقة آمنة وموثوقة',
+    type: 'تهكير',
+    url: 'https://hackerbot.net',
+    icon: '🤖',
+    features: ['بحث عن أكواد الغش', 'دليل أدوات الألعاب', 'تحديثات أمان', 'مجتمع دعم'],
+    detailedFeatures: [
+        'بحث سريع عن أكواد الغش والتهكير للألعاب الشهيرة',
+        'توفير دليل شامل لأدوات الغش بطرق آمنة',
+        'تنبيهات وتحديثات دورية لتعزيز الأمان وحماية الحسابات',
+        'مجتمع تفاعلي لتبادل الخبرات والنصائح بين اللاعبين',
+        'دعم متعدد لأنظمة التشغيل والأنواع المختلفة من الألعاب',
+        'مراجعات وتقييمات للأدوات والشروحات المتوفرة',
+        'إرشادات حول الاستخدام الصحيح للأكواد وتجنب الحظر',
+        'واجهة سهلة الاستخدام ودعم مستمر للمستخدمين'
+    ],
+    useCases: ['البحث عن أكواد الغش', 'حماية الحسابات', 'تطوير استراتيجيات اللعب', 'مشاركة خبرات الألعاب'],
+    rating: 4.4
+},
+{
+    id: 10,
+    name: 'Cheat Engine',
+    description: 'برنامج شهير لتعديل وتحليل القيم داخل الألعاب بهدف تهكير وتخصيص تجربة اللعب',
+    type: 'تهكير',
+    url: 'https://cheatengine.org',
+    icon: '🕹️',
+    features: ['تهكير القيم', 'تعديل الذاكرة', 'تخصيص الألعاب', 'إنشاء أكواد الغش'],
+    detailedFeatures: [
+        'تعديل قيم الألعاب مباشرة عبر تحليل الذاكرة',
+        'إنشاء واستخدام أكواد الغش الخاصة',
+        'فحص وتحرير العناوين والقيم في الألعاب',
+        'دعم ألعاب الكمبيوتر ومعظم المحاكيات',
+        'إمكانية تسريع أو إبطاء الألعاب حسب الحاجة',
+        'مجتمع ضخم لتبادل السكريبتات والأكواد',
+        'دروس وشرح مفصل لجميع الأدوات والخصائص',
+        'تصدير واستيراد ملفات الغش بسهولة'
+    ],
+    useCases: ['تهكير الألعاب', 'تعديل النقاط والموارد', 'تخصيص سيناريوهات اللعب', 'تعلم البرمجة للألعاب'],
+    rating: 4.8
+},
+{
+    id: 11,
+    name: 'ArtMoney',
+    description: 'أداة متخصصة لتحليل وتعديل القيم الرقمية داخل ألعاب الكمبيوتر لغايات التهكير والتخصيص',
+    type: 'تهكير',
+    url: 'https://www.artmoney.ru',
+    icon: '💰',
+    features: ['تحليل القيم الرقمية', 'تعديل النقاط', 'بحث عن العناوين', 'تخصيص الألعاب'],
+    detailedFeatures: [
+        'البحث السريع عن القيم الرقمية والموارد داخل الألعاب',
+        'تعديل النقاط والعملات والمستويات بسهولة',
+        'فحص العناوين وتحريرها للوصول إلى موارد إضافية',
+        'دعم آلاف ألعاب الكمبيوتر القديمة والجديدة',
+        'استخدام أدوات متقدمة لتسريع وسهولة التهكير',
+        'مجتمع دعم لمشاركة الأكواد والخبرات',
+        'تصدير واستيراد الملفات مع حماية كاملة للبيانات',
+        'واجهة بسيطة تسهل على المبتدئين التهكير الآمن'
+    ],
+    useCases: ['تهكير الألعاب', 'تعديل موارد اللاعبين', 'تسريع تحقيق الإنجازات', 'التجربة والتحليل'],
+    rating: 4.7
+},
+{
+    id: 12,
+    name: 'Hex Editor',
+    description: 'أداة قوية لتحرير ومعالجة قيم الألعاب مباشرة داخل ملفاتها باستخدام البرمجة الست عشرية',
+    type: 'تهكير',
+    url: 'https://hexed.it',
+    icon: '🔢',
+    features: ['تحرير القيم الست عشرية', 'تعديل بيانات الألعاب', 'معالجة البيانات المخبأة', 'تهكير ملفات الألعاب'],
+    detailedFeatures: [
+        'تعديل القيم الرقمية والموارد مباشرة في ملفات الألعاب',
+        'التعامل مع ملفات الحفظ والبيانات الداخلية للألعاب',
+        'فحص وتحليل وتغيير الأكواد البرمجية',
+        'دعم كامل لأنواع الملفات المختلفة للألعاب',
+        'إمكانية استعادة البيانات المعدلة أو المحذوفة',
+        'تأمين التعديلات وسهولة التصدير',
+        'دروس وشرح لتهكير الألعاب باستخدام البرمجة الست عشرية',
+        'تحليل شامل وبحث عن البيانات المهمة للغش'
+    ],
+    useCases: ['تهكير ملفات الألعاب', 'تعديل النقاط والعملات', 'تحليل وسرعة التعديل', 'اختبار متغيرات جديدة'],
+    rating: 4.6
+},
+{
+    id: 13,
+    name: 'HxD Editor',
+    description: 'برنامج احترافي لمعالجة وتعديل الملفات الثنائية وملفات الألعاب بهدف تهكير الموارد والقيم الرقمية',
+    type: 'تهكير',
+    url: 'https://mh-nexus.de/en/hxd',
+    icon: '🔍',
+    features: ['معالجة الملفات الثنائية', 'تعديل ملفات الحفظ', 'تحليل القيم الرقمية', 'تهكير الألعاب'],
+    detailedFeatures: [
+        'تحرير قيم الألعاب الداخلية عبر تعديل الملفات الثنائية',
+        'فحص وتغيير موارد اللعبة، مثل النقاط والعملات',
+        'دعم معالجة ملفات الحفظ وملفات النظام للألعاب',
+        'بحث سريع وتحليل عميق للعناوين والقيم',
+        'أدوات لترميم واختبار التعديلات بأمان',
+        'دروس ودعم مجتمعي لمساعدة الهواة والمحترفين',
+        'تعدد الصيغ البرمجية والدعم الكامل للمستخدم',
+        'سهولة تصدير واستيراد الملفات المعدلة'
+    ],
+    useCases: ['تهكير الألعاب', 'تحليل وتعديل القيم', 'استعادة وتصدير البيانات', 'تسريع التجربة'],
+    rating: 4.7
+},
+{
+    id: 14,
+    name: 'Xmodgames',
+    description: 'تطبيق مخصص لهكر الألعاب على أجهزة أندرويد مع دعم أدوات الغش وتخصيص الموارد',
+    type: 'تهكير',
+    url: 'https://xmodgames.com',
+    icon: '📱',
+    features: ['تهكير الألعاب', 'تفعيل أكواد الغش', 'تسريع الأداء', 'تخصيص موارد اللاعب'],
+    detailedFeatures: [
+        'دعم تهكير أشهر ألعاب الأندرويد بسهولة',
+        'تفعيل واستخدام أكواد الغش مباشرة داخل اللعبة',
+        'إضافة ميزات جديدة مثل تسريع اللعبة أو تخصيص الموارد',
+        'مكتبة ضخمة من أدوات الهكر والتحليل',
+        'دروس وتحديثات مستمرة لأشهر الألعاب',
+        'دعم استخدام متعدد عبر أجهزة وهواتف مختلفة',
+        'مجتمع دعم وتبادل خبرات حول التهكير الآمن',
+        'واجهة سهلة وتحكم مباشر بالخصائص'
+    ],
+    useCases: ['تهكير الموارد', 'تطوير استراتيجية اللعب', 'كشف أسرار الألعاب', 'تسريع وتخصيص الأداء'],
+    rating: 4.5
+},
+{
+    id: 15,
+    name: 'Lucky Patcher',
+    description: 'تطبيق شهير لهكر وتعديل تطبيقات وألعاب أندرويد للتمكن من إزالة الإعلانات وتخصيص الموارد',
+    type: 'تهكير',
+    url: 'https://www.luckypatchers.com',
+    icon: '🍀',
+    features: ['تهكير الألعاب', 'إزالة الإعلانات', 'تعديل الموارد', 'تغيير التراخيص'],
+    detailedFeatures: [
+        'تهكير وتعديل الألعاب والتطبيقات بأنظمة أندرويد بسهولة',
+        'إزالة الإعلانات المزعجة من الألعاب والتطبيقات',
+        'تعديل الموارد والمميزات داخل التطبيقات المدعومة',
+        'إمكانية تغيير التراخيص وتفعيل الخصائص المدفوعة',
+        'دعم النسخ الاحتياطي والتعديلات الآمنة',
+        'تحديثات دورية ودروس للتهكير الآمن',
+        'مجتمع دعم لتحليل المشاكل وتبادل الحلول',
+        'واجهة مرنة والتحكم الكامل بالإعدادات'
+    ],
+    useCases: ['تهكير الألعاب', 'إزالة الإعلانات', 'فتح الميزات المدفوعة', 'تعديل الوظائف والتراخيص'],
+    rating: 4.6
+},
+
         
         // تطبيقات الربح من الاستبيانات
         {
@@ -8632,6 +9171,28 @@ function loadData() {
             useCases: ['السفر', 'التعلم', 'العمل', 'التواصل'],
             rating: 4.6
         },
+        {
+    id: 17,
+    name: 'Sider',
+    description: 'منصة متكاملة توفر الوصول إلى نماذج الذكاء الصنعي القوية وتدعم تطبيقات العمل بذكاء وخصوصية عالية',
+    type: 'ترجمة',
+    url: 'https://sider.ai/invited?c=82a595683fa9144439510f0e77008ea4',
+    icon: '🧩',
+    features: ['دردشة الشاشة الذكية', 'دعم الاستبيانات', 'ترجمة فورية', 'أمان وخصوصية عالية'],
+    detailedFeatures: [
+        'الوصول الموحد إلى أشهر نماذج الذكاء الصنعي (باستثناء Manus) عبر واجهة سهلة الاستخدام',
+        'أداة Screen Chat لفهم وتحليل محتوى الشاشة مباشرةً بذكاء',
+        'دعم متكامل لتعبئة وتصحيح الاستبيانات الإلكترونية والورقية',
+        'ترجمة النصوص المعروضة على الشاشة دون الحاجة لإضافات خارجية',
+        'اقتراح الإجابات المناسبة وتقديم تفسيرات دقيقة للمحتوى',
+        'مساعدة فورية أثناء العمل على مواقع الاستبيانات بنقرات بسيطة',
+        'تحليل الصور والنصوص لتوجيه المستخدم وتسهيل المهام',
+        'توفير بديل آمن وسري عن إضافات الترجمة التي قد تسبب الحظر أو التقييد'
+    ],
+    useCases: ['تعبئة الاستبيانات', 'الترجمة الفورية', 'تحليل محتوى الشاشة', 'مساعدة العاملين عن بعد'],
+    rating: 4.8
+},
+
         
         // تطبيقات البروكسي
         {
@@ -9484,7 +10045,8 @@ function getPromotionTypeText(type) {
         'bonus': 'بونص',
         'discount': 'خصم',
         'free': 'مجاني',
-        'limited': 'محدود'
+        'limited': 'محدود',
+        'kashback': 'كاش باك'
     };
     return types[type] || type;
 }
