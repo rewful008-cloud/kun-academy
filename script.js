@@ -12239,6 +12239,67 @@ function forceUpdateData() {
     showNotification('تم تحديث البيانات بنجاح!', 'success');
 }
 
+//جد
+(function(){
+  // نجوم السماء الليلية
+  const canvas = document.getElementById("kun-stars-bg");
+  if (!canvas) return;
+  function resizeCanvas() {
+    canvas.width = canvas.offsetWidth;
+    canvas.height = canvas.offsetHeight;
+  }
+  resizeCanvas();
+  window.addEventListener('resize', resizeCanvas);
+
+  const ctx = canvas.getContext("2d");
+  const starCount = Math.floor((canvas.width*canvas.height)/3500);
+  let stars = [];
+
+  function randomStar() {
+    const r = Math.random();
+    return {
+      x: Math.random() * canvas.width,
+      y: Math.random() * canvas.height,
+      radius: 0.44 + r * 1.18,
+      alpha: 0.7 + Math.random() * 0.3,
+      twinkle: 0.9 + Math.random() * 0.2,
+      blink: Math.random() * 2 * Math.PI
+    }
+  }
+
+  function drawStars() {
+    ctx.clearRect(0,0,canvas.width,canvas.height);
+    for (let i=0; i<stars.length; i++) {
+      let s = stars[i];
+      let tw = (Math.sin(Date.now()/680 + s.blink)*0.17+1)*s.alpha; 
+      ctx.beginPath();
+      ctx.arc(s.x, s.y, s.radius, 0, 2 * Math.PI, false);
+      ctx.fillStyle = "rgba(255,224,153,"+tw.toFixed(2)+")";
+      ctx.shadowColor = "#ffe28c";
+      ctx.shadowBlur = 6 + 7*Math.abs(Math.sin(Date.now()/830 + s.blink));
+      ctx.fill();
+    }
+  }
+
+  function animate() {
+    drawStars();
+    requestAnimationFrame(animate);
+  }
+
+  function createStars() {
+    stars = [];
+    const n = Math.max(36, Math.floor((canvas.width*canvas.height)/3500));
+    for (let i=0; i<n; i++) stars.push(randomStar());
+  }
+
+  createStars();
+  animate();
+  window.addEventListener('resize', function(){resizeCanvas(); createStars()});
+})();
+
+
+
+
 // Initialize fullscreen mode
 function initializeFullscreen() {
     // Check if app is in fullscreen mode
@@ -12280,4 +12341,3 @@ window.dismissInstallPrompt = dismissInstallPrompt;
 window.applyUpdate = applyUpdate;
 window.dismissUpdate = dismissUpdate;
 window.forceUpdateData = forceUpdateData;
-
